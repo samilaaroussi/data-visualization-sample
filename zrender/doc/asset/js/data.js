@@ -46,20 +46,22 @@ require(
         'zrender/shape/BrokenLine',
         'zrender/shape/Path',
         'zrender/shape/Polygon'],
-            function(zrender, CircleShape) {
-                // just init to get a zrender Instance
-                var zr = zrender.init(document.getElementById('main'));
-                // zr can be used now!
-                var CircleShape = require('zrender/shape/Circle');
-                zr.addShape(
-                    new CircleShape({
-                        style : {
-                            x : 100,
-                            y : 100,
-                            r : 50,
-                            color : 'rgba(220, 20, 60, 0.8)'
-                        },
-                        draggable: false
-                    }));
-                zr.render();
-                    });
+        function(zrender, CircleShape) {
+            // just init to get a zrender Instance
+            var zr = zrender.init(document.getElementById('main'));
+            // zr can be used now!
+            var CircleShape = require('zrender/shape/Circle');
+            zr.addShape(
+                new CircleShape({
+                    style : {
+                        x : 100,
+                        y : 100,
+                        r : 50,
+                        color : 'rgba(220, 20, 60, 0.8)'
+                    },
+                    draggable: false
+                })
+            );
+            zr.render();
+        }
+);
