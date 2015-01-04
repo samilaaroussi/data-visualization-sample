@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ZRender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZRender">
+    <meta name="author" content="kener.linfeng@gmail.com">
+
+    <script src="doc/asset/js/esl/esl.js"></script>
+
+    <!-- Le styles -->
+    <link href="doc/asset/css/bootstrap.css" rel="stylesheet">
+    <link href="doc/asset/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="doc/asset/css/zrenderHome.css" rel="stylesheet">
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="doc/asset/ico/favicon.png">
+  </head>
+
+  <body>
+ffdfdf
+<div id="main" class="main"></div>
+fdfdf
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="doc/asset/js/jquery.js"></script>
+    <script src="doc/asset/js/bootstrap-transition.js"></script>
+    <script src="doc/asset/js/bootstrap-alert.js"></script>
+    <script src="doc/asset/js/bootstrap-modal.js"></script>
+    <script src="doc/asset/js/bootstrap-dropdown.js"></script>
+    <script src="doc/asset/js/bootstrap-scrollspy.js"></script>
+    <script src="doc/asset/js/bootstrap-tab.js"></script>
+    <script src="doc/asset/js/bootstrap-tooltip.js"></script>
+    <script src="doc/asset/js/bootstrap-popover.js"></script>
+    <script src="doc/asset/js/bootstrap-button.js"></script>
+    <script src="doc/asset/js/bootstrap-collapse.js"></script>
+    <script src="doc/asset/js/bootstrap-carousel.js"></script>
+    <script src="doc/asset/js/bootstrap-typeahead.js"></script>
+    <script>
+   require(
+    [ 'zrender',
+        'zrender/shape/Rose',
+        'zrender/shape/Trochoid',
+        'zrender/shape/Circle',
+        'zrender/shape/Sector',
+        'zrender/shape/Ring',
+        'zrender/shape/Ellipse',
+        'zrender/shape/Rectangle',
+        'zrender/shape/Text',
+        'zrender/shape/Heart',
+        'zrender/shape/Droplet',
+        'zrender/shape/Line',
+        'zrender/shape/Image',
+        'zrender/shape/Star',
+        'zrender/shape/Isogon',
+        'zrender/shape/BezierCurve',
+        'zrender/shape/BrokenLine',
+        'zrender/shape/Path',
+        'zrender/shape/Polygon'],
+            function(zrender) {
+                // just init to get a zrender Instance
+                var zr = zrender.init(document.getElementById('main'));
+                // zr can be used now!
+                var CircleShape = require('zrender/shape/Circle');
+                zr.addShape(
+                    new CircleShape({
+                        style : {
+                            x : 100,
+                            y : 100,
+                            r : 50,
+                            color : 'rgba(220, 20, 60, 0.8)'
+                        }
+                    })
+                );
+                zr.render();
+                    }
+                );
+    </script>
+  </body>
+</html>

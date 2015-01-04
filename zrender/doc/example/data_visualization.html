@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ZRender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZRender">
+    <meta name="author" content="kener.linfeng@gmail.com">
+
+    <script src="../asset/js/esl/esl.js"></script>
+
+    <!-- Le styles -->
+    <link href="../asset/css/bootstrap.css" rel="stylesheet">
+    <link href="../asset/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../asset/css/zrenderHome.css" rel="stylesheet">
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../asset/ico/favicon.png">
+  </head>
+
+  <body>
+
+<div id="main" class="main"></div>
+fdfdf
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../asset/js/jquery.js"></script>
+    <script src="../asset/js/bootstrap-transition.js"></script>
+    <script src="../asset/js/bootstrap-alert.js"></script>
+    <script src="../asset/js/bootstrap-modal.js"></script>
+    <script src="../asset/js/bootstrap-dropdown.js"></script>
+    <script src="../asset/js/bootstrap-scrollspy.js"></script>
+    <script src="../asset/js/bootstrap-tab.js"></script>
+    <script src="../asset/js/bootstrap-tooltip.js"></script>
+    <script src="../asset/js/bootstrap-popover.js"></script>
+    <script src="../asset/js/bootstrap-button.js"></script>
+    <script src="../asset/js/bootstrap-collapse.js"></script>
+    <script src="../asset/js/bootstrap-carousel.js"></script>
+    <script src="../asset/js/bootstrap-typeahead.js"></script>
+    <script>
+   require(
+    [
+        'zrender',
+        'zrender/tool/color',
+        'zrender/shape/Sector'
+    ],
+    function ( zrender, zrColor, SectorShape) {
+        var zr = zrender.init(document.getElementById('main'));
+        zr.clear();
+        
+        var data = [10,13,23,8,35,18];
+        var total = 0;
+        for (var i = 0, l = data.length; i < l; i++) {
+            total += data[i];
+        }
+        var percent;
+        var startAngle = 0;
+        var endAngle;
+        var x = Math.round(zr.getWidth() / 2);
+        var y = Math.round(zr.getHeight() / 2);
+        var r0 = 30;
+        var r = 100;
+
+        for (var i = 0, l = data.length; i < l; i++){
+
+            percent = data[i] / total;
+            endAngle = (percent * 360 + startAngle).toFixed(2) - 0;
+            percent = (percent * 100).toFixed(2) + '%';
+            zr.addShape(new SectorShape({
+                style : {
+                    x : x,          // 圆心横坐标
+                    y : y,          // 圆心纵坐标
+                    r0 : r0,        // 圆环内半径
+                    r : r,          // 圆环外半径
+                    startAngle : startAngle,
+                    endAngle : endAngle,
+                    brushType : 'both',
+                    color : zrColor.getColor(i),
+                    strokeColor : '#fff'
+                },
+                highlightStyle : {
+                    text : percent,
+                    textPosition : 'specific',
+                    textX : x,
+                    textY : y,
+                    textAlign : 'center',
+                    textBaseline: 'middle',
+                    textColor : 'blue',
+                    textFont : 'bold 10px verdana'
+                },
+                clickable : true,
+                onclick : function(params) {
+                    alert(params.target.highlightStyle.text);
+                }
+            }))
+            startAngle = endAngle;
+        }
+        zr.render();
+    }
+);
+    </script>
+  </body>
+</html>
