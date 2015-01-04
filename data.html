@@ -38,44 +38,6 @@ fdfdf
     <script src="zrender/doc/asset/js/bootstrap-collapse.js"></script>
     <script src="zrender/doc/asset/js/bootstrap-carousel.js"></script>
     <script src="zrender/doc/asset/js/bootstrap-typeahead.js"></script>
-    <script>
-   require(
-    [ 'zrender/src/zrender',
-        'zrender/src/shape/Rose',
-        'zrender/src/shape/Trochoid',
-        'zrender/src/shape/Circle',
-        'zrender/src/shape/Sector',
-        'zrender/src/shape/Ring',
-        'zrender/src/shape/Ellipse',
-        'zrender/src/shape/Rectangle',
-        'zrender/src/shape/Text',
-        'zrender/src/shape/Heart',
-        'zrender/src/shape/Droplet',
-        'zrender/src/shape/Line',
-        'zrender/src/shape/Image',
-        'zrender/src/shape/Star',
-        'zrender/src/shape/Isogon',
-        'zrender/src/shape/BezierCurve',
-        'zrender/src/shape/BrokenLine',
-        'zrender/src/shape/Path',
-        'zrender/src/shape/Polygon'],
-            function(zrender, CircleShape) {
-                // just init to get a zrender Instance
-                var zr = zrender.init(document.getElementById('main'));
-                // zr can be used now!
-                var CircleShape = require('zrender/src/shape/Circle');
-                zr.addShape(
-                    new CircleShape({
-                        style : {
-                            x : 100,
-                            y : 100,
-                            r : 50,
-                            color : 'rgba(220, 20, 60, 0.8)'
-                        },
-                        draggable: false
-                    }));
-                zr.render();
-                    });
-    </script>
+    <script src="zrender/doc/asset/js/data.js"></script>
   </body>
 </html>
