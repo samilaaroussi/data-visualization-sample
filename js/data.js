@@ -1658,36 +1658,6 @@ zr.addShape(new LineShape({
 
 zr.addShape(new RectangleShape({
     style : {
-        x : width - 1775,
-        y : 248,
-        width : 40,
-        height: 100,
-        radius: [5, 5],
-        brushType : 'both',
-        color : '#5ab1ef'
-    },
-    draggable : false,
-	hoverable : false
-}));
-
-zr.addShape(new RectangleShape({
-    style : {
-        x : width - 1725,
-        y : 218,
-        width : 40,
-        height: 130,
-        radius: [5, 5],
-        brushType : 'both',
-        color : '#d87a80'
-    },
-    draggable : false,
-	hoverable : false
-}));
-
-/*****************************************/
-
-zr.addShape(new RectangleShape({
-    style : {
         x : width - 1625,
         y : 245,
         width : 40,
@@ -1925,6 +1895,38 @@ zr.addShape(new RectangleShape({
     draggable : false,
     hoverable : false
 }));
+
+/*****************************************/
+
+zr.addShape(new RectangleShape({
+    style : {
+        x : width - 425,
+        y : 219,
+        width : 40,
+        height: 129,
+        radius: [5, 5],
+        brushType : 'both',
+        color : '#5ab1ef'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new RectangleShape({
+    style : {
+        x : width - 375,
+        y : 234,
+        width : 40,
+        height: 114,
+        radius: [5, 5],
+        brushType : 'both',
+        color : '#d87a80'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+
 // Courbes cassées
 
 zr.addShape(new BrokenLine({
@@ -2283,45 +2285,35 @@ zr.addShape(new RectangleShape({
 }));
 
 
-
-// Legend
-
-
-// Courbes cassées
-
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 200], [300, 180], [450, 165], [600, 145], [750, 140], [900, 135], [1050, 130], [1200, 30], [1350, 10]],
-        strokeColor : '#5ab1ef',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 300,
+        xEnd : 1350,
+        yEnd : 250,
+        strokeColor : '#d87a80',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 200,
+        xEnd : 1350,
+        yEnd : 340,
+        strokeColor : '#5ab1ef',
+        lineWidth : 2,
+        lineType : 'solid'
+    },
+    draggable:false
 }));
 
 zr.addShape(new BrokenLine({
     style: {
-        pointList : [[146, 310], [300, 300], [450, 295], [600, 290], [750, 285], [900, 280], [1050, 275], [1200, 250], [1350, 240]],
-        strokeColor : '#d87a80',   // == color
-        lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
-    },
-    draggable : false,
-    hoverable : false
-}));
-
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 265], [300, 250], [450, 235], [600, 220], [750, 205], [900, 180], [1050, 160], [1200, 110], [1350, 90]],
+        pointList : [[146, 110], [300, 108], [450, 106], [600, 104], [750, 102], [900, 100], [1050, 98], [1200, 96], [1350, 94]],
         strokeColor : 'orange',   // == color
         lineWidth : 2,
         lineCap : 'round',
