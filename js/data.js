@@ -7189,7 +7189,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '625人',
+        text : '1,800人',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -7207,7 +7207,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '1,875人',
+        text : '5,400人',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -7225,7 +7225,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '3,125人',
+        text : '9,000人',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -7736,81 +7736,70 @@ zr.addShape(new LineShape({
 
 // Courbes cassées
 
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 175], [300, 162], [450, 160], [600, 125], [750, 125], [900, 95], [1050, 95], [1200, 95], [1350, 95]],
-        strokeColor : '#2ec7c9',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 275,
+        xEnd : 1350,
+        yEnd : 220,
+        strokeColor : '#2ec7c9',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
 }));
 
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 85], [300, 135], [450, 185], [600, 180], [750, 70], [900, 175], [1050, 190], [1200, 240], [1350, 265]],
-        strokeColor : '#ffb980',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 85,
+        xEnd : 1350,
+        yEnd : 100,
+        strokeColor : '#ffb980',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
 }));
 
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 85], [300, 135], [450, 185], [600, 180], [750, 70], [900, 175], [1050, 190], [1200, 240], [1350, 265]],
-        strokeColor : '#5ab1ef',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 185,
+        xEnd : 1350,
+        yEnd : 200,
+        strokeColor : '#5ab1ef',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
 }));
 
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 85], [300, 135], [450, 185], [600, 180], [750, 70], [900, 175], [1050, 190], [1200, 240], [1350, 265]],
-        strokeColor : '#b6a2de',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 225,
+        xEnd : 1350,
+        yEnd : 205,
+        strokeColor : '#b6a2de',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
 }));
 
-zr.addShape(new BrokenLine({
-    style: {
-        pointList : [[146, 85], [300, 135], [450, 185], [600, 180], [750, 70], [900, 175], [1050, 190], [1200, 240], [1350, 265]],
-        strokeColor : '#d87a80',   // == color
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 275,
+        xEnd : 1350,
+        yEnd : 230,
+        strokeColor : '#d87a80',
         lineWidth : 2,
-        lineCap : 'round',
-        lineType : 'solid',
-        lineJoin : 'miter',
-        miterLimit : 50,
-        textPosition:'end'
+        lineType : 'solid'
     },
-    draggable : false,
-    hoverable : false
+    draggable:false
 }));
-
 
 // 绘画
 zr.render();
