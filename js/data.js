@@ -1557,7 +1557,7 @@ zr.addShape(new LineShape({
         xEnd: 1550,
         yEnd: 300,
         strokeColor: '#5ab1ef',
-        lineWidth: 2,
+        lineWidth: 5,
 		text: '城镇人口(万人)',
 		textColor: '#333333'
     },
@@ -1572,7 +1572,7 @@ zr.addShape(new LineShape({
         xEnd: 1550,
         yEnd: 320,
         strokeColor: '#d87a80',
-        lineWidth: 2,
+        lineWidth: 5,
 		text: '乡村人口(万人)',
 		textColor: '#333333'
     },
@@ -3319,7 +3319,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '35%',
+        text : '10%',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3337,7 +3337,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '40%',
+        text : '30%',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3355,7 +3355,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '45%',
+        text : '50%',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3605,10 +3605,10 @@ zr.addShape(new LineShape({
         yStart: 260,
         xEnd: 1570,
         yEnd: 260,
-        strokeColor: '#b6a2de',
+        strokeColor: '#ffb980',
         lineWidth: 2,
         lineType: 'solid',
-        text: '年末总人口(万人)',
+        text: '城镇居民家庭恩格尔系数',
         textColor: '#333333'
     },
     draggable : false,
@@ -3621,10 +3621,10 @@ zr.addShape(new LineShape({
         yStart: 280,
         xEnd: 1570,
         yEnd: 280,
-        strokeColor: '#2ec7c9',
+        strokeColor: '#b6a2de',
         lineWidth: 2,
         lineType: 'solid',
-        text: '年末总人口(万人)',
+        text: '农村居民家庭恩格尔系数',
         textColor: '#333333'
     },
     draggable : false,
@@ -3638,8 +3638,8 @@ zr.addShape(new LineShape({
         xEnd: 1570,
         yEnd: 300,
         strokeColor: '#5ab1ef',
-        lineWidth: 2,
-        text: '城镇人口(万人)',
+        lineWidth: 5,
+        text: '城镇居民家庭人均可支配收入',
         textColor: '#333333'
     },
     draggable : false,
@@ -3653,8 +3653,8 @@ zr.addShape(new LineShape({
         xEnd: 1570,
         yEnd: 320,
         strokeColor: '#d87a80',
-        lineWidth: 2,
-        text: '乡村人口(万人)',
+        lineWidth: 5,
+        text: '农村居民家庭人均纯收入',
         textColor: '#333333'
     },
     draggable : false,
@@ -4114,9 +4114,35 @@ zr.addShape(new RectangleShape({
     hoverable : false
 }));
 
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 85,
+        xEnd : 1350,
+        yEnd : 125,
+        strokeColor : '#ffb980',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 146,
+        yStart : 80,
+        xEnd : 1350,
+        yEnd : 65,
+        strokeColor : '#b6a2de',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
 
 // Courbes cassées
-
+/*
 zr.addShape(new BrokenLine({
     style: {
         pointList : [[146, 300], [300, 99], [450, 98], [600, 97], [750, 96], [900, 95], [1050, 94], [1200, 93], [1350, 92]],
@@ -4146,6 +4172,7 @@ zr.addShape(new BrokenLine({
     draggable : false,
     hoverable : false
 }));
+*/
 
 // 绘画
 zr.render();
