@@ -70,6 +70,24 @@ var BrokenLine = require('zrender/shape/BrokenLine');
 
 zr.addShape(new TextShape({
     style : {
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
         x : 25,
         y : 260,
         brushType : 'fill',
@@ -438,7 +456,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 0,
+        yStart : 65,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -645,6 +663,24 @@ zr.addShape(new TextShape({
     },
     draggable : false,
 	hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
 }));
 
 zr.addShape(new TextShape({
@@ -1211,6 +1247,24 @@ zr.addShape(new TextShape({
 
 zr.addShape(new TextShape({
     style : {
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
         x : 25,
         y : 160,
         brushType : 'fill',
@@ -1545,7 +1599,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 0,
+        yStart : 65,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -2027,6 +2081,24 @@ var BrokenLine = require('zrender/shape/BrokenLine');
 
 zr.addShape(new TextShape({
     style : {
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
         x : 25,
         y : 260,
         brushType : 'fill',
@@ -2344,7 +2416,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 0,
+        yStart : 65,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -2580,7 +2652,25 @@ var BrokenLine = require('zrender/shape/BrokenLine');
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 35,
         y : 260,
         brushType : 'fill',
         color : '#999999',
@@ -2598,7 +2688,7 @@ zr.addShape(new TextShape({
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
+        x : 35,
         y : 160,
         brushType : 'fill',
         color : '#999999',
@@ -2616,7 +2706,7 @@ zr.addShape(new TextShape({
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
+        x : 35,
         y : 60,
         brushType : 'fill',
         color : '#999999',
@@ -3150,14 +3240,14 @@ var BrokenLine = require('zrender/shape/BrokenLine');
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
-        y : 260,
+        x : 30,
+        y : 245,
         brushType : 'fill',
         color : '#999999',
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '50,000',
+        text : '7,500元',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3168,14 +3258,14 @@ zr.addShape(new TextShape({
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
-        y : 160,
+        x : 30,
+        y : 145,
         brushType : 'fill',
         color : '#999999',
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '100,000',
+        text : '15,000元',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3186,14 +3276,86 @@ zr.addShape(new TextShape({
 
 zr.addShape(new TextShape({
     style : {
-        x : 25,
-        y : 60,
+        x : 30,
+        y : 50,
         brushType : 'fill',
         color : '#999999',
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '150,000',
+        text : '25,000元',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 50,
+        y : 345,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '0',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 1485,
+        y : 250,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '35%',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 1485,
+        y : 150,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '40%',
+        textFont : 'normal 12px verdana',
+        textAlign : 'center',
+        textBaseline : 'top'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new TextShape({
+    style : {
+        x : 1485,
+        y : 50,
+        brushType : 'fill',
+        color : '#999999',
+        shadowColor : 'none',
+        shadowBlur : 0,
+        lineWidth : 3,
+        text : '45%',
         textFont : 'normal 12px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3439,13 +3601,13 @@ zr.addShape(new RectangleShape({
 
 zr.addShape(new LineShape({
     style : {
-        xStart: 1500,
-        yStart: 280,
-        xEnd: 1550,
-        yEnd: 280,
-        strokeColor: 'orange',
+        xStart: 1520,
+        yStart: 260,
+        xEnd: 1570,
+        yEnd: 260,
+        strokeColor: '#b6a2de',
         lineWidth: 2,
-        lineType: 'dashed',
+        lineType: 'solid',
         text: '年末总人口(万人)',
         textColor: '#333333'
     },
@@ -3455,9 +3617,25 @@ zr.addShape(new LineShape({
 
 zr.addShape(new LineShape({
     style : {
-        xStart: 1500,
+        xStart: 1520,
+        yStart: 280,
+        xEnd: 1570,
+        yEnd: 280,
+        strokeColor: '#2ec7c9',
+        lineWidth: 2,
+        lineType: 'solid',
+        text: '年末总人口(万人)',
+        textColor: '#333333'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart: 1520,
         yStart: 300,
-        xEnd: 1550,
+        xEnd: 1570,
         yEnd: 300,
         strokeColor: '#5ab1ef',
         lineWidth: 2,
@@ -3470,9 +3648,9 @@ zr.addShape(new LineShape({
 
 zr.addShape(new LineShape({
     style : {
-        xStart: 1500,
+        xStart: 1520,
         yStart: 320,
-        xEnd: 1550,
+        xEnd: 1570,
         yEnd: 320,
         strokeColor: '#d87a80',
         lineWidth: 2,
@@ -3502,8 +3680,22 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 0,
+        yStart : 50,
         xEnd : 70,
+        yEnd : 350,
+        strokeColor : '#333333',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
         yEnd : 350,
         strokeColor : '#333333',
         lineWidth : 1,
@@ -3561,7 +3753,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '人口',
+        text : '格尔系数',
         textFont : 'normal 24px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -3573,9 +3765,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3586,9 +3778,48 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 250,
+        xEnd : 1450,
+        yEnd : 250,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3600,9 +3831,9 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 100,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 100,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3616,9 +3847,9 @@ zr.addShape(new LineShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1625,
-        y : 245,
+        y : 215,
         width : 40,
-        height: 103,
+        height: 133,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3630,9 +3861,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1575,
-        y : 220,
+        y : 300,
         width : 40,
-        height: 128,
+        height: 48,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3646,9 +3877,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1475,
-        y : 242,
+        y : 190,
         width : 40,
-        height: 106,
+        height: 158,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3660,9 +3891,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1425,
-        y : 222,
+        y : 298,
         width : 40,
-        height: 126,
+        height: 50,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3676,9 +3907,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1325,
-        y : 239,
+        y : 175,
         width : 40,
-        height: 109,
+        height: 173,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3690,9 +3921,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1275,
-        y : 224,
+        y : 288,
         width : 40,
-        height: 124,
+        height: 60,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3706,9 +3937,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1175,
-        y : 236,
+        y : 145,
         width : 40,
-        height: 112,
+        height: 203,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3721,9 +3952,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1125,
-        y : 226,
+        y : 278,
         width : 40,
-        height: 122,
+        height: 70,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3737,9 +3968,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1025,
-        y : 230,
+        y : 105,
         width : 40,
-        height: 118,
+        height: 243,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3752,9 +3983,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 975,
-        y : 226,
+        y : 268,
         width : 40,
-        height: 122,
+        height: 80,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3768,9 +3999,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 875,
-        y : 228,
+        y : 90,
         width : 40,
-        height: 120,
+        height: 258,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3782,9 +4013,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 825,
-        y : 228,
+        y : 258,
         width : 40,
-        height: 120,
+        height: 90,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3798,9 +4029,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 725,
-        y : 225,
+        y : 70,
         width : 40,
-        height: 123,
+        height: 278,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3812,9 +4043,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 675,
-        y : 230,
+        y : 248,
         width : 40,
-        height: 118,
+        height: 100,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3828,9 +4059,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 575,
-        y : 222,
+        y : 65,
         width : 40,
-        height: 126,
+        height: 283,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3842,9 +4073,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 525,
-        y : 232,
+        y : 238,
         width : 40,
-        height: 116,
+        height: 110,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3858,9 +4089,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 425,
-        y : 219,
+        y : 58,
         width : 40,
-        height: 129,
+        height: 290,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -3872,9 +4103,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 375,
-        y : 234,
+        y : 228,
         width : 40,
-        height: 114,
+        height: 120,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -3888,11 +4119,26 @@ zr.addShape(new RectangleShape({
 
 zr.addShape(new BrokenLine({
     style: {
-        pointList : [[146, 100], [300, 99], [450, 98], [600, 97], [750, 96], [900, 95], [1050, 94], [1200, 93], [1350, 92]],
-        strokeColor : 'orange',   // == color
+        pointList : [[146, 300], [300, 99], [450, 98], [600, 97], [750, 96], [900, 95], [1050, 94], [1200, 93], [1350, 92]],
+        strokeColor : '#2ec7c9',   // == color
         lineWidth : 2,
         lineCap : 'round',
-        lineType : 'dashed',
+        lineType : 'solid',
+        lineJoin : 'miter',
+        miterLimit : 50,
+        textPosition:'end'
+    },
+    draggable : false,
+    hoverable : false
+}));
+
+zr.addShape(new BrokenLine({
+    style: {
+        pointList : [[146, 200], [300, 195], [450, 190], [600, 180], [750, 155], [900, 130], [1050, 115], [1200, 110], [1350, 60]],
+        strokeColor : '#b6a2de',   // == color
+        lineWidth : 2,
+        lineCap : 'round',
+        lineType : 'solid',
         lineJoin : 'miter',
         miterLimit : 50,
         textPosition:'end'
