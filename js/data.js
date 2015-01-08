@@ -6239,7 +6239,7 @@ zr.addShape(new LineShape({
         yStart: 320,
         xEnd: 1570,
         yEnd: 320,
-        strokeColor: '#5ab1ef',
+        strokeColor: '#b6a2de',
         lineWidth: 2,
         lineType: 'solid',
         text: '森林面积(万公顷)',
@@ -6255,7 +6255,7 @@ zr.addShape(new LineShape({
         yStart: 300,
         xEnd: 1570,
         yEnd: 300,
-        strokeColor: '#b6a2de',
+        strokeColor: '#5ab1ef',
         lineWidth: 2,
         lineType: 'solid',
         text: '森林火灾次数(次)',
@@ -6451,7 +6451,7 @@ zr.addShape(new LineShape({
 
 zr.addShape(new BrokenLine({
     style: {
-        pointList : [[146, 300], [300, 99], [450, 98], [600, 97], [750, 96], [900, 95], [1050, 94], [1200, 93], [1350, 92]],
+        pointList : [[146, 125], [300, 125], [450, 125], [600, 125], [750, 125], [900, 95], [1050, 95], [1200, 95], [1350, 95]],
         strokeColor : '#2ec7c9',   // == color
         lineWidth : 2,
         lineCap : 'round',
@@ -6466,7 +6466,7 @@ zr.addShape(new BrokenLine({
 
 zr.addShape(new BrokenLine({
     style: {
-        pointList : [[146, 200], [300, 195], [450, 190], [600, 180], [750, 155], [900, 130], [1050, 115], [1200, 110], [1350, 60]],
+        pointList : [[146, 85], [300, 135], [450, 185], [600, 180], [750, 70], [900, 175], [1050, 190], [1200, 240], [1350, 265]],
         strokeColor : '#b6a2de',   // == color
         lineWidth : 2,
         lineCap : 'round',
