@@ -81,7 +81,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 260,
+                y: 245,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -99,7 +99,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 160,
+                y: 145,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -117,7 +117,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 60,
+                y: 45,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -619,7 +619,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 260,
+                y: 245,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -655,7 +655,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 160,
+                y: 145,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -673,7 +673,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 60,
+                y: 45,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -1231,7 +1231,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 260,
+                y: 245,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -1267,7 +1267,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 160,
+                y: 145,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -1285,7 +1285,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 60,
+                y: 45,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2076,7 +2076,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 260,
+                y: 245,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2094,7 +2094,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 160,
+                y: 145,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2112,7 +2112,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 25,
-                y: 60,
+                y: 45,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2654,7 +2654,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 35,
-                y: 260,
+                y: 245,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2672,7 +2672,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 35,
-                y: 160,
+                y: 145,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
@@ -2690,7 +2690,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 35,
-                y: 60,
+                y: 45,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
