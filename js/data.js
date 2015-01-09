@@ -7351,15 +7351,8 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+
         var zr = zrender.init(document.getElementById('main12'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -7549,6 +7542,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         zr.addShape(new TextShape({
             style: {
                 x: 900,
@@ -7566,6 +7560,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         zr.addShape(new TextShape({
             style: {
                 x: 1050,
@@ -7583,6 +7578,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         zr.addShape(new TextShape({
             style: {
                 x: 1200,
@@ -7808,15 +7804,15 @@ require(
         zr.addShape(new BrokenLine({
             style: {
                 pointList: [
-                    [146, 85],
-                    [300, 135],
-                    [450, 185],
-                    [600, 180],
-                    [750, 70],
-                    [900, 175],
-                    [1050, 190],
-                    [1200, 240],
-                    [1350, 265]
+                    [146, 275],
+                    [300, 264],
+                    [450, 254],
+                    [600, 234],
+                    [750, 214],
+                    [900, 195],
+                    [1050, 160],
+                    [1200, 125],
+                    [1350, 105]
                 ],
                 strokeColor: 'orange', // == color
                 lineWidth: 2,
