@@ -6134,7 +6134,7 @@ require(
         b : -28,
         brushType : 'both',
         color : '#b6a2de',
-        text:'14,144',
+        text:'14.144',
         textPosition:'inside',
         textColor:'white',
         textFont: 'normal 10px verdana'
@@ -6150,7 +6150,7 @@ require(
         b : -28,
         brushType : 'both',
         color : '#2ec7c9',
-        text:'20,769',
+        text:'20.769',
         textPosition:'inside',
         textColor:'white',
         textFont: 'normal 10px verdana'
