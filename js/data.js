@@ -87,7 +87,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '100,000',
+                text: '100.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -105,7 +105,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '300,000',
+                text: '300.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -123,7 +123,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '500,000',
+                text: '500.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -625,7 +625,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000',
+                text: '5.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -661,7 +661,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '10,000',
+                text: '10.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -679,7 +679,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000',
+                text: '15.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -1237,7 +1237,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '50,000',
+                text: '50.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -1273,7 +1273,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '100,000',
+                text: '100.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -1291,7 +1291,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '150,000',
+                text: '150.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -2086,7 +2086,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000',
+                text: '5.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -2104,7 +2104,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000',
+                text: '15.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -2122,7 +2122,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '25,000',
+                text: '25.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -3234,7 +3234,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000元',
+                text: '5.000元',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -3252,7 +3252,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000元',
+                text: '15.000元',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -3270,7 +3270,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '25,000元',
+                text: '25.000元',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -3597,49 +3597,6 @@ require(
             hoverable: false
         }));
 
-        // Horizontal
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 350,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        // Vertical
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 50,
-                xEnd: 70,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1450,
-                yStart: 50,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
 
         // 文本
         zr.addShape(new TextShape({
@@ -3659,6 +3616,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         //Repères
         zr.addShape(new LineShape({
             style: {
@@ -3736,6 +3694,50 @@ require(
                 yEnd: 100,
                 strokeColor: '#eeeeee',
                 lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+                // Horizontal
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 350,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Vertical
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 50,
+                xEnd: 70,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1450,
+                yStart: 50,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
                 lineType: 'solid'
             },
             draggable: false,
@@ -4123,7 +4125,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '10,000',
+                text: '10.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -4141,7 +4143,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '20,000',
+                text: '20.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -4159,7 +4161,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '30,000',
+                text: '30.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5623,7 +5625,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000次',
+                text: '5.000次',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5641,7 +5643,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000次',
+                text: '15.000次',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5659,7 +5661,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '25,000次',
+                text: '25.000次',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5695,7 +5697,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000万公顷',
+                text: '5.000万公顷',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5713,7 +5715,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '10,000万公顷',
+                text: '10.000万公顷',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -5731,7 +5733,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000万公顷',
+                text: '15.000万公顷',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6274,7 +6276,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '200,000',
+                text: '200.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6292,7 +6294,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '600,000',
+                text: '600.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6974,7 +6976,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '9,000人',
+                text: '9.000人',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -8121,7 +8123,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '190,000',
+                text: '190.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -8139,7 +8141,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '640,000',
+                text: '640.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -8157,7 +8159,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '950,000',
+                text: '950.000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -8451,69 +8453,6 @@ require(
             hoverable: false
         }));
 
-        // Horizontal
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 350,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-
-        // Vertical
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 50,
-                xEnd: 70,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1450,
-                yStart: 50,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#016392',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        // 文本
-        zr.addShape(new TextShape({
-            style: {
-                x: width / 2,
-                y: 10,
-                brushType: 'fill',
-                color: color.getColor(colorIdx++),
-                shadowColor: 'none',
-                shadowBlur: 0,
-                lineWidth: 3,
-                text: '机构和医务人员',
-                textFont: 'normal 24px verdana',
-                textAlign: 'center',
-                textBaseline: 'top'
-            },
-            draggable: false,
-            hoverable: false
-        }));
         //Repères
         zr.addShape(new LineShape({
             style: {
@@ -8597,6 +8536,69 @@ require(
             hoverable: false
         }));
 
+        // Horizontal
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 350,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+
+        // Vertical
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 50,
+                xEnd: 70,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1450,
+                yStart: 50,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#016392',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // 文本
+        zr.addShape(new TextShape({
+            style: {
+                x: width / 2,
+                y: 10,
+                brushType: 'fill',
+                color: color.getColor(colorIdx++),
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '机构和医务人员',
+                textFont: 'normal 24px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
 
         /*****************************************/
