@@ -7644,7 +7644,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '森林火灾',
+        text : '学生和小学生',
         textFont : 'normal 24px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -8249,7 +8249,7 @@ zr.addShape(new LineShape({
         xEnd: 1570,
         yEnd: 320,
         strokeColor: '#d87a80',
-        lineWidth: 2,
+        lineWidth: 5,
         lineType: 'solid',
         text: '医疗卫生机构数(个)',
         textColor: '#333333'
@@ -8265,7 +8265,7 @@ zr.addShape(new LineShape({
         xEnd: 1570,
         yEnd: 300,
         strokeColor: '#5ab1ef',
-        lineWidth: 2,
+        lineWidth: 5,
         lineType: 'solid',
         text: '卫生人员数(万人)',
         textColor: '#333333'
@@ -8367,7 +8367,7 @@ zr.addShape(new TextShape({
         shadowColor : 'none',
         shadowBlur : 0,
         lineWidth : 3,
-        text : '森林火灾',
+        text : '机构和医务人员',
         textFont : 'normal 24px verdana',
         textAlign : 'center',
         textBaseline : 'top'
@@ -8463,9 +8463,9 @@ zr.addShape(new LineShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1625,
-        y : 58,
+        y : 78,
         width : 40,
-        height: 290,
+        height: 270,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8477,9 +8477,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1575,
-        y : 220,
+        y : 160,
         width : 40,
-        height: 128,
+        height: 188,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8493,9 +8493,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1475,
-        y : 242,
+        y : 73,
         width : 40,
-        height: 106,
+        height: 275,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8507,9 +8507,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1425,
-        y : 222,
+        y : 148,
         width : 40,
-        height: 126,
+        height: 200,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8523,9 +8523,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1325,
-        y : 239,
+        y : 70,
         width : 40,
-        height: 109,
+        height: 278,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8537,9 +8537,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1275,
-        y : 224,
+        y : 138,
         width : 40,
-        height: 124,
+        height: 210,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8553,9 +8553,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1175,
-        y : 236,
+        y : 70,
         width : 40,
-        height: 112,
+        height: 278,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8568,9 +8568,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1125,
-        y : 226,
+        y : 128,
         width : 40,
-        height: 122,
+        height: 220,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8584,9 +8584,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 1025,
-        y : 230,
+        y : 80,
         width : 40,
-        height: 118,
+        height: 268,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8599,9 +8599,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 975,
-        y : 226,
+        y : 118,
         width : 40,
-        height: 122,
+        height: 230,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8615,9 +8615,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 875,
-        y : 228,
+        y : 70,
         width : 40,
-        height: 120,
+        height: 278,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8629,9 +8629,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 825,
-        y : 228,
+        y : 103,
         width : 40,
-        height: 120,
+        height: 245,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8645,9 +8645,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 725,
-        y : 225,
+        y : 68,
         width : 40,
-        height: 123,
+        height: 280,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8659,9 +8659,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 675,
-        y : 230,
+        y : 88,
         width : 40,
-        height: 118,
+        height: 260,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8675,9 +8675,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 575,
-        y : 222,
+        y : 45,
         width : 40,
-        height: 126,
+        height: 303,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8689,9 +8689,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 525,
-        y : 232,
+        y : 78,
         width : 40,
-        height: 116,
+        height: 270,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
@@ -8705,9 +8705,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 425,
-        y : 219,
+        y : 50,
         width : 40,
-        height: 129,
+        height: 298,
         radius: [5, 5],
         brushType : 'both',
         color : '#5ab1ef'
@@ -8719,9 +8719,9 @@ zr.addShape(new RectangleShape({
 zr.addShape(new RectangleShape({
     style : {
         x : width - 375,
-        y : 234,
+        y : 63,
         width : 40,
-        height: 114,
+        height: 285,
         radius: [5, 5],
         brushType : 'both',
         color : '#d87a80'
