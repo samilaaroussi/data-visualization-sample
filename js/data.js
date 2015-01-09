@@ -548,36 +548,74 @@ zr.addShape(new LineShape({
         lineWidth : 1,
         lineType : 'solid'
     },
-    draggable : false,
-	hoverable : false
+    draggable:false
 }));
 
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
-    draggable : false,
-	hoverable : false
+    draggable:false
 }));
 
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 250,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 250,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
-    draggable : false,
-	hoverable : false
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 100,
+        xEnd : 1450,
+        yEnd : 100,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 // 绘画
@@ -1104,9 +1142,9 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -1117,14 +1155,55 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 250,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 250,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
     draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 100,
+        xEnd : 1450,
+        yEnd : 100,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 zr.addShape(new LineShape({
@@ -1724,29 +1803,68 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
-    draggable:false,
-	hoverable : false
+    draggable:false
 }));
 
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 250,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 250,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
     draggable:false,
-	hoverable : false
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 100,
+        xEnd : 1450,
+        yEnd : 100,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 /*****************************************/
@@ -2554,9 +2672,9 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -2567,14 +2685,55 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 250,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 250,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
     draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 100,
+        xEnd : 1450,
+        yEnd : 100,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 zr.addShape(new LineShape({
@@ -3060,7 +3219,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 0,
+        yStart : 50,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -3157,9 +3316,9 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 265,
+        yStart : 200,
         xEnd : 1450,
-        yEnd : 265,
+        yEnd : 200,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3170,9 +3329,9 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 165,
+        yStart : 250,
         xEnd : 1450,
-        yEnd : 165,
+        yEnd : 250,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3180,6 +3339,46 @@ zr.addShape(new LineShape({
     draggable:false
 }));
 
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 300,
+        xEnd : 1450,
+        yEnd : 300,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 150,
+        xEnd : 1450,
+        yEnd : 150,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 70,
+        yStart : 100,
+        xEnd : 1450,
+        yEnd : 100,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
 zr.addShape(new LineShape({
     style : {
         xStart: 1500,
