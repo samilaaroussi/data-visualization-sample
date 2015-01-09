@@ -4852,6 +4852,37 @@ require(
             hoverable: false
         }));
 
+   zr.addShape(new DropletShape({
+    style : {
+        x : 1050,
+        y : 25,
+        a : -24,
+        b : -22,
+        brushType : 'both',
+        color : 'orange',
+        text:'30.906',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false
+}));
+
+        zr.addShape(new DropletShape({
+    style : {
+        x : 1200,
+        y : 80,
+        a : -24,
+        b : -22,
+        brushType : 'both',
+        color : 'orange',
+        text:'23.256',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false
+}));
 
         // Courbes cassées
 
