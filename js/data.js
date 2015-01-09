@@ -7327,6 +7327,534 @@ require(
 );
 
 
+/********************* CHART 12 *********************/
+require(
+    ['zrender',
+        'zrender/shape/Rose',
+        'zrender/shape/Trochoid',
+        'zrender/shape/Circle',
+        'zrender/shape/Sector',
+        'zrender/shape/Ring',
+        'zrender/shape/Ellipse',
+        'zrender/shape/Rectangle',
+        'zrender/shape/Text',
+        'zrender/shape/Heart',
+        'zrender/shape/Droplet',
+        'zrender/shape/Line',
+        'zrender/shape/Image',
+        'zrender/shape/Star',
+        'zrender/shape/Isogon',
+        'zrender/shape/BezierCurve',
+        'zrender/shape/BrokenLine',
+        'zrender/shape/Path',
+        'zrender/shape/Polygon'
+    ],
+
+    function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
+        // just init to get a zrender Instance
+        var zr = zrender.init(document.getElementById('main12'));
+        // zr can be used now!
+        /*
+         *  zr has been init like this, just use it!
+         *
+         *  var zrender = require('zrender');
+         *  var zr = zrender.init(document.getElementById('main'));
+         */
+        zr.clear();
+        var color = require('zrender/tool/color');
+        var colorIdx = 0;
+        var width = Math.ceil(zr.getWidth());
+        var height = Math.ceil(zr.getHeight());
+
+        var CircleShape = require('zrender/shape/Circle');
+        var SectorShape = require('zrender/shape/Sector');
+        var RingShape = require('zrender/shape/Ring');
+        var EllipseShape = require('zrender/shape/Ellipse');
+        var HeartShape = require('zrender/shape/Heart');
+        var DropletShape = require('zrender/shape/Droplet');
+        var PolygonShape = require('zrender/shape/Polygon');
+        var RectangleShape = require('zrender/shape/Rectangle');
+        var LineShape = require('zrender/shape/Line');
+        var BezierCurveShape = require('zrender/shape/BezierCurve');
+        var TextShape = require('zrender/shape/Text');
+        var ImageShape = require('zrender/shape/Image');
+        var PathShape = require('zrender/shape/Path');
+        var TrochoidShape = require('zrender/shape/Trochoid');
+        var RoseShape = require('zrender/shape/Rose');
+        var StarShape = require('zrender/shape/Star');
+        var IsogonShape = require('zrender/shape/Isogon');
+        var BrokenLine = require('zrender/shape/BrokenLine');
+        // Vertical numbers
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 30,
+                y: 245,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '100M',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 30,
+                y: 145,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '200M',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 30,
+                y: 50,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '300M',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 50,
+                y: 345,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '0',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Horizontal numbers
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 150,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2004',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 300,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2005',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 450,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2006',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 600,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2007',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new TextShape({
+            style: {
+                x: 750,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2008',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        zr.addShape(new TextShape({
+            style: {
+                x: 900,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2009',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        zr.addShape(new TextShape({
+            style: {
+                x: 1050,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2010',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        zr.addShape(new TextShape({
+            style: {
+                x: 1200,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2011',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        zr.addShape(new TextShape({
+            style: {
+                x: 1350,
+                y: 360,
+                brushType: 'fill',
+                color: '#999999',
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '2012',
+                textFont: 'normal 12px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Double Chart Bar
+
+        // 矩形
+        zr.addShape(new RectangleShape({
+            style: {
+                x: 0,
+                y: 100,
+                y: 500,
+                width: 60,
+                height: 40,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#CCCCCC'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Legend
+
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1520,
+                yStart: 300,
+                xEnd: 1570,
+                yEnd: 300,
+                strokeColor: 'orange',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '教育经费(万元)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Horizontal
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 350,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#333333',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // Vertical
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 50,
+                xEnd: 70,
+                yEnd: 350,
+                strokeColor: '#333333',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1450,
+                yStart: 50,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // 文本
+        zr.addShape(new TextShape({
+            style: {
+                x: width / 2,
+                y: 10,
+                brushType: 'fill',
+                color: color.getColor(colorIdx++),
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '教育经费',
+                textFont: 'normal 24px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        //Repères
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 50,
+                xEnd: 1450,
+                yEnd: 50,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 200,
+                xEnd: 1450,
+                yEnd: 200,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 250,
+                xEnd: 1450,
+                yEnd: 250,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 300,
+                xEnd: 1450,
+                yEnd: 300,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 150,
+                xEnd: 1450,
+                yEnd: 150,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 100,
+                xEnd: 1450,
+                yEnd: 100,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+
+        // Courbes cassées
+
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 85],
+                    [300, 135],
+                    [450, 185],
+                    [600, 180],
+                    [750, 70],
+                    [900, 175],
+                    [1050, 190],
+                    [1200, 240],
+                    [1350, 265]
+                ],
+                strokeColor: 'orange', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'solid',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+
+        // 绘画
+        zr.render();
+
+        /* 除了在shape上绑定事件，可以挂接全局事件
+        zr.on('click',      function(e){console.log('onclick',e,'global')});
+        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
+        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
+        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
+        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
+        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
+        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
+        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
+        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
+        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
+        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
+        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
+        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
+        */
+
+    }
+);
+
+
+
 /********************* CHART 13 *********************/
 require(
     ['zrender',
@@ -8135,7 +8663,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-
 
         // 绘画
         zr.render();
