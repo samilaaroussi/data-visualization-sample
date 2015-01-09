@@ -6129,7 +6129,7 @@ require(
         zr.addShape(new DropletShape({
     style : {
         x : 750,
-        y : 38,
+        y : 37,
         a : -24,
         b : -28,
         brushType : 'both',
@@ -6142,6 +6142,21 @@ require(
     draggable : false
 }));
 
+        zr.addShape(new DropletShape({
+    style : {
+        x : 900,
+        y : 62,
+        a : -24,
+        b : -28,
+        brushType : 'both',
+        color : '#2ec7c9',
+        text:'20,769',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false
+}));
 
         zr.addShape(new BrokenLine({
             style: {
