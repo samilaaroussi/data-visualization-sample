@@ -1496,31 +1496,35 @@ require(
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1500,
-                yStart: 300,
-                xEnd: 1550,
-                yEnd: 300,
-                strokeColor: '#5ab1ef',
-                lineWidth: 5,
-                text: '城镇人口(万人)',
-                textColor: '#333333'
+                x: 1527,
+                y: 300,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
+                text: '医疗卫生机构数(个)',
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#d87a80'
             },
             draggable: false,
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1500,
-                yStart: 320,
-                xEnd: 1550,
-                yEnd: 320,
-                strokeColor: '#d87a80',
-                lineWidth: 5,
+                x: 1527,
+                y: 320,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
                 text: '乡村人口(万人)',
-                textColor: '#333333'
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#5ab1ef'
             },
             draggable: false,
             hoverable: false
@@ -3559,31 +3563,35 @@ require(
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1520,
-                yStart: 300,
-                xEnd: 1570,
-                yEnd: 300,
-                strokeColor: '#5ab1ef',
-                lineWidth: 5,
+                x: 1547,
+                y: 300,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
                 text: '城镇居民家庭人均可支配收入',
-                textColor: '#333333'
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#5ab1ef'
             },
             draggable: false,
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1520,
-                yStart: 320,
-                xEnd: 1570,
-                yEnd: 320,
-                strokeColor: '#d87a80',
-                lineWidth: 5,
+                x: 1547,
+                y: 320,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
                 text: '农村居民家庭人均纯收入',
-                textColor: '#333333'
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#d87a80'
             },
             draggable: false,
             hoverable: false
@@ -4374,7 +4382,7 @@ require(
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        /*zr.addShape(new LineShape({
             style: {
                 xStart: 1520,
                 yStart: 320,
@@ -4382,27 +4390,48 @@ require(
                 yEnd: 320,
                 strokeColor: '#d87a80',
                 lineWidth: 5,
+                lineCape: 'round',
                 text: '供水总量(亿立方米)',
                 textColor: '#333333'
             },
             draggable: false,
             hoverable: false
-        }));
+        }));*/
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1520,
-                yStart: 300,
-                xEnd: 1570,
-                yEnd: 300,
-                strokeColor: '#5ab1ef',
-                lineWidth: 5,
-                text: '用水总量(亿立方米)',
-                textColor: '#333333'
+                x: 1545,
+                y: 320,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
+                text: '供水总量(亿立方米)',
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#d87a80'
             },
             draggable: false,
             hoverable: false
         }));
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: 1545,
+                y: 300,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
+                text: '用水总量(亿立方米)',
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#5ab1ef'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -5174,18 +5203,37 @@ require(
             hoverable: false
         }));
 
+
         // Legend
 
-        zr.addShape(new LineShape({
+        /*zr.addShape(new LineShape({
             style: {
                 xStart: 1520,
                 yStart: 300,
-                xEnd: 1570,
+                xEnd: 1550,
                 yEnd: 300,
                 strokeColor: '#95706d',
-                lineWidth: 5,
+                lineWidth: 20,
+                lineCape: 'round',
                 text: '废水排放总量(万吨)',
                 textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));*/
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: 1520,
+                y: 300,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
+                text: '废水排放总量(万吨)',
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#95706d'
             },
             draggable: false,
             hoverable: false
@@ -8305,33 +8353,35 @@ require(
 
         // Legend
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1520,
-                yStart: 320,
-                xEnd: 1570,
-                yEnd: 320,
-                strokeColor: '#d87a80',
-                lineWidth: 5,
-                lineType: 'solid',
+                x: 1545,
+                y: 320,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
                 text: '医疗卫生机构数(个)',
-                textColor: '#333333'
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#d87a80'
             },
             draggable: false,
             hoverable: false
         }));
 
-        zr.addShape(new LineShape({
+        zr.addShape(new RectangleShape({
             style: {
-                xStart: 1520,
-                yStart: 300,
-                xEnd: 1570,
-                yEnd: 300,
-                strokeColor: '#5ab1ef',
-                lineWidth: 5,
-                lineType: 'solid',
+                x: 1545,
+                y: 300,
+                width: 20,
+                height: 12,
+                radius: [3, 3],
+                brushType: 'both',
                 text: '卫生人员数(万人)',
-                textColor: '#333333'
+                textColor: '#333333',
+                textPosition: 'right',
+                color: '#5ab1ef'
             },
             draggable: false,
             hoverable: false
