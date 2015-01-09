@@ -7960,7 +7960,39 @@ require(
             hoverable: false
         }));
 
+zr.addShape(new DropletShape({
+    style : {
+        x : 146,
+        y : 242,
+        a : -24,
+        b : -28,
+        brushType : 'both',
+        color : 'orange',
+        text:'633,27',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false,
+    hoverable: false
+}));
 
+zr.addShape(new DropletShape({
+    style : {
+        x : 1350,
+        y : 72,
+        a : -24,
+        b : -28,
+        brushType : 'both',
+        color : 'orange',
+        text:'911,57',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false,
+    hoverable: false
+}));
         // Courbes cassées
 
         zr.addShape(new BrokenLine({
