@@ -5535,9 +5535,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1475,
-                y: 295,
+                y: 294,
                 width: 40,
-                height: 53,
+                height: 54,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5549,9 +5549,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1425,
-                y: 295,
+                y: 294,
                 width: 40,
-                height: 53,
+                height: 54,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5565,9 +5565,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1325,
-                y: 295,
+                y: 293,
                 width: 40,
-                height: 53,
+                height: 55,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5579,9 +5579,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1275,
-                y: 295,
+                y: 293,
                 width: 40,
-                height: 53,
+                height: 55,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5595,9 +5595,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1175,
-                y: 295,
+                y: 292,
                 width: 40,
-                height: 53,
+                height: 56,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5610,9 +5610,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1125,
-                y: 295,
+                y: 292,
                 width: 40,
-                height: 53,
+                height: 56,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5626,9 +5626,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1025,
-                y: 295,
+                y: 291,
                 width: 40,
-                height: 53,
+                height: 57,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5641,9 +5641,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 975,
-                y: 295,
+                y: 291,
                 width: 40,
-                height: 53,
+                height: 57,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5657,9 +5657,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 875,
-                y: 295,
+                y: 290,
                 width: 40,
-                height: 53,
+                height: 58,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5671,9 +5671,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 825,
-                y: 295,
+                y: 290,
                 width: 40,
-                height: 53,
+                height: 58,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5687,9 +5687,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 725,
-                y: 295,
+                y: 289,
                 width: 40,
-                height: 53,
+                height: 59,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5701,9 +5701,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 675,
-                y: 295,
+                y: 289,
                 width: 40,
-                height: 53,
+                height: 59,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5717,9 +5717,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 575,
-                y: 295,
+                y: 288,
                 width: 40,
-                height: 53,
+                height: 60,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5731,9 +5731,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 525,
-                y: 295,
+                y: 288,
                 width: 40,
-                height: 53,
+                height: 60,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5747,9 +5747,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 425,
-                y: 295,
+                y: 287,
                 width: 40,
-                height: 53,
+                height: 61,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5761,9 +5761,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 375,
-                y: 295,
+                y: 287,
                 width: 40,
-                height: 53,
+                height: 61,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
