@@ -6523,7 +6523,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '森林火灾',
+                text: '学生和小学生 (一)',
                 textFont: 'normal 24px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -7138,7 +7138,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '学生和小学生',
+                text: '学生和小学生 (二)',
                 textFont: 'normal 24px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
