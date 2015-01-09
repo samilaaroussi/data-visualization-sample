@@ -309,7 +309,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-    
+
         // Legend
 
         zr.addShape(new LineShape({
@@ -431,7 +431,7 @@ require(
                 xEnd: 1450,
                 yEnd: 350,
                 strokeColor: '#eeeeee',
-                lineWidth: 1,
+                lineWidth: 2,
                 lineType: 'solid'
             },
             draggable: false,
@@ -468,7 +468,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -494,7 +495,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -507,7 +509,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -585,7 +588,7 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        
+
         var zr = zrender.init(document.getElementById('main2'));
         zr.clear();
         var color = require('zrender/tool/color');
@@ -864,9 +867,214 @@ require(
         }));
 
 
+        // Horizontal
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 350,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#333333',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
-        // Legend
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 0,
+                xEnd: 1450,
+                yEnd: 0,
+                strokeColor: '#eeeeee',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
+        // Vertical
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 0,
+                xEnd: 70,
+                yEnd: 350,
+                strokeColor: '#333333',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1450,
+                yStart: 0,
+                xEnd: 1450,
+                yEnd: 350,
+                strokeColor: '#eeeeee',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        // 文本
+        zr.addShape(new TextShape({
+            style: {
+                x: width / 2,
+                y: 10,
+                brushType: 'fill',
+                color: color.getColor(colorIdx++),
+                shadowColor: 'none',
+                shadowBlur: 0,
+                lineWidth: 3,
+                text: '居民消',
+                textFont: 'normal 24px verdana',
+                textAlign: 'center',
+                textBaseline: 'top'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        //Repères
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 50,
+                xEnd: 1450,
+                yEnd: 50,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 200,
+                xEnd: 1450,
+                yEnd: 200,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 250,
+                xEnd: 1450,
+                yEnd: 250,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 300,
+                xEnd: 1450,
+                yEnd: 300,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 150,
+                xEnd: 1450,
+                yEnd: 150,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 70,
+                yStart: 100,
+                xEnd: 1450,
+                yEnd: 100,
+                strokeColor: '#eeeeee',
+                lineWidth: 1,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 300,
+                xEnd: 1550,
+                yEnd: 300,
+                strokeColor: 'orange',
+                lineWidth: 2,
+                lineType: 'dashed',
+                text: '居民消费水平(元)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 320,
+                xEnd: 1550,
+                yEnd: 320,
+                strokeColor: '#d87a80',
+                lineWidth: 2,
+                text: '农村居民消费水平(元)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 340,
+                xEnd: 1550,
+                yEnd: 340,
+                strokeColor: '#5ab1ef',
+                lineWidth: 2,
+                text: '城镇居民消费水平(元)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
         // Courbes cassées
 
@@ -945,194 +1153,6 @@ require(
             hoverable: false
         }));
 
-        // Horizontal
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 350,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#333333',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        // Vertical
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 0,
-                xEnd: 70,
-                yEnd: 350,
-                strokeColor: '#333333',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1450,
-                yStart: 50,
-                xEnd: 1450,
-                yEnd: 350,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-       
-        // 文本
-        zr.addShape(new TextShape({
-            style: {
-                x: width / 2,
-                y: 10,
-                brushType: 'fill',
-                color: color.getColor(colorIdx++),
-                shadowColor: 'none',
-                shadowBlur: 0,
-                lineWidth: 3,
-                text: '居民消',
-                textFont: 'normal 24px verdana',
-                textAlign: 'center',
-                textBaseline: 'top'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        //Repères
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 50,
-                xEnd: 1450,
-                yEnd: 50,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 200,
-                xEnd: 1450,
-                yEnd: 200,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 250,
-                xEnd: 1450,
-                yEnd: 250,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 300,
-                xEnd: 1450,
-                yEnd: 300,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 150,
-                xEnd: 1450,
-                yEnd: 150,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 70,
-                yStart: 100,
-                xEnd: 1450,
-                yEnd: 100,
-                strokeColor: '#eeeeee',
-                lineWidth: 1,
-                lineType: 'solid'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1500,
-                yStart: 300,
-                xEnd: 1550,
-                yEnd: 300,
-                strokeColor: 'orange',
-                lineWidth: 2,
-                lineType: 'dashed',
-                text: '居民消费水平(元)',
-                textColor: '#333333'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1500,
-                yStart: 320,
-                xEnd: 1550,
-                yEnd: 320,
-                strokeColor: '#d87a80',
-                lineWidth: 2,
-                text: '农村居民消费水平(元)',
-                textColor: '#333333'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 1500,
-                yStart: 340,
-                xEnd: 1550,
-                yEnd: 340,
-                strokeColor: '#5ab1ef',
-                lineWidth: 2,
-                text: '城镇居民消费水平(元)',
-                textColor: '#333333'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // 绘画
         zr.render();
 
@@ -1180,15 +1200,8 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+
         var zr = zrender.init(document.getElementById('main3'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -1464,34 +1477,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -1614,7 +1599,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -1627,7 +1613,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -1640,7 +1627,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -1653,7 +1641,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2316,58 +2305,6 @@ require(
             hoverable: false
         }));
 
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 146,
-                yStart: 300,
-                xEnd: 1350,
-                yEnd: 250,
-                strokeColor: '#d87a80',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 146,
-                yStart: 200,
-                xEnd: 1350,
-                yEnd: 340,
-                strokeColor: '#5ab1ef',
-                lineWidth: 2,
-                lineType: 'solid'
-            },
-            draggable: false
-        }));
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 110],
-                    [300, 108],
-                    [450, 106],
-                    [600, 104],
-                    [750, 102],
-                    [900, 100],
-                    [1050, 98],
-                    [1200, 96],
-                    [1350, 94]
-                ],
-                strokeColor: 'orange', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'dashed',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -2379,7 +2316,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         // Vertical
@@ -2393,7 +2331,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2439,7 +2378,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2452,7 +2392,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2465,7 +2406,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2478,7 +2420,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -2555,6 +2498,58 @@ require(
             hoverable: false
         }));
 
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 110],
+                    [300, 108],
+                    [450, 106],
+                    [600, 104],
+                    [750, 102],
+                    [900, 100],
+                    [1050, 98],
+                    [1200, 96],
+                    [1350, 94]
+                ],
+                strokeColor: 'orange', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'dashed',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 146,
+                yStart: 300,
+                xEnd: 1350,
+                yEnd: 250,
+                strokeColor: '#d87a80',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 146,
+                yStart: 200,
+                xEnd: 1350,
+                yEnd: 340,
+                strokeColor: '#5ab1ef',
+                lineWidth: 2,
+                lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
         // 绘画
         zr.render();
@@ -2888,70 +2883,6 @@ require(
             hoverable: false
         }));
 
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 230],
-                    [300, 228],
-                    [450, 222],
-                    [600, 215],
-                    [750, 213],
-                    [900, 205],
-                    [1050, 202],
-                    [1200, 201],
-                    [1350, 200]
-                ],
-                strokeColor: '#d87a80', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 225],
-                    [300, 220],
-                    [450, 218],
-                    [600, 210],
-                    [750, 208],
-                    [900, 200],
-                    [1050, 198],
-                    [1200, 202],
-                    [1350, 197]
-                ],
-                strokeColor: '#5ab1ef', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new LineShape({
-            style: {
-                xStart: 146,
-                yStart: 150,
-                xEnd: 1350,
-                yEnd: 100,
-                strokeColor: 'orange',
-                lineWidth: 2,
-                lineType: 'dashed'
-            },
-            draggable: false
-        }));
-
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -2963,7 +2894,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         // Vertical
@@ -2977,7 +2909,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3023,7 +2956,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3036,7 +2970,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3049,7 +2984,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3062,7 +2998,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3138,6 +3075,70 @@ require(
             hoverable: false
         }));
 
+
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 230],
+                    [300, 228],
+                    [450, 222],
+                    [600, 215],
+                    [750, 213],
+                    [900, 205],
+                    [1050, 202],
+                    [1200, 201],
+                    [1350, 200]
+                ],
+                strokeColor: '#d87a80', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'solid',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 225],
+                    [300, 220],
+                    [450, 218],
+                    [600, 210],
+                    [750, 208],
+                    [900, 200],
+                    [1050, 198],
+                    [1200, 202],
+                    [1350, 197]
+                ],
+                strokeColor: '#5ab1ef', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'solid',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 146,
+                yStart: 150,
+                xEnd: 1350,
+                yEnd: 100,
+                strokeColor: 'orange',
+                lineWidth: 2,
+                lineType: 'dashed'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
         // 绘画
         zr.render();
@@ -3674,7 +3675,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -3687,7 +3689,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -4026,7 +4029,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         // 绘画
@@ -4472,7 +4476,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -4485,7 +4490,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -4498,7 +4504,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5166,7 +5173,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-    
+
         // Legend
 
         zr.addShape(new LineShape({
@@ -5256,7 +5263,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5269,7 +5277,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5282,7 +5291,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5295,7 +5305,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5966,7 +5977,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5979,7 +5991,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -5992,7 +6005,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -6528,7 +6542,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -6541,7 +6556,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -6554,7 +6570,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -6567,7 +6584,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7139,7 +7157,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7152,7 +7171,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7165,7 +7185,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7178,7 +7199,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7222,7 +7244,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7235,7 +7258,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7248,7 +7272,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7261,7 +7286,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7274,7 +7300,8 @@ require(
                 lineWidth: 2,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         // 绘画
@@ -7763,7 +7790,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
@@ -7776,7 +7804,8 @@ require(
                 lineWidth: 1,
                 lineType: 'solid'
             },
-            draggable: false
+            draggable: false,
+            hoverable: false
         }));
 
         zr.addShape(new LineShape({
