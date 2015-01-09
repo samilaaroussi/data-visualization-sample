@@ -328,19 +328,19 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 300,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1525,
+                y: 300,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new LineShape({
             style: {
@@ -358,19 +358,19 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 320,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1525,
+                y: 320,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         // Horizontal
         zr.addShape(new LineShape({
@@ -519,7 +519,7 @@ require(
             hoverable: false
         }));
 
-         // Courbes cassées
+        // Courbes cassées
 
 
         zr.addShape(new BrokenLine({
@@ -546,142 +546,142 @@ require(
             draggable: false,
             hoverable: false
         }));
-zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 250,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 250,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 230,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 230,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 215,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 215,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 205,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 205,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 190,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 190,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 185,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 185,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 180,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 180,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 160,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 160,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 150,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 150,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new BrokenLine({
+        zr.addShape(new BrokenLine({
             style: {
                 pointList: [
                     [146, 240],
@@ -706,159 +706,145 @@ zr.addShape(new BrokenLine({
             hoverable: false
         }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 240,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 240,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 220,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 220,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 210,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 210,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 200,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 200,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 190,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 190,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 180,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 180,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 170,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 170,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 150,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 150,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 140,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 140,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -1364,21 +1350,21 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 320,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1525,
+                y: 320,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-          zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 340,
@@ -1393,20 +1379,20 @@ require(
             hoverable: false
         }));
 
-         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 340,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1525,
+                y: 340,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         // Courbes cassées
 
@@ -1435,172 +1421,172 @@ require(
             hoverable: false
         }));
 
-// 圆形
-zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 200,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        // 圆形
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 200,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 180,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 180,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 165,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 165,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 145,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 145,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 165,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 165,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 140,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 140,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 135,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 135,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 140,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 140,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 130,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 130,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 30,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 30,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 10,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 10,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new BrokenLine({
             style: {
@@ -1628,139 +1614,139 @@ zr.addShape(new CircleShape({
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 310,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 146,
+                y: 310,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 300,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 300,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 295,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 295,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 290,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 290,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 285,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 285,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 280,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 280,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 275,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 275,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 250,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 250,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 240,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 240,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
 
         zr.addShape(new BrokenLine({
@@ -1791,21 +1777,7 @@ zr.addShape(new CircleShape({
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -2615,21 +2587,7 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -3193,21 +3151,7 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -3700,19 +3644,19 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 320,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1525,
+                y: 320,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new LineShape({
             style: {
@@ -3730,21 +3674,21 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1525,
-        y : 340,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1525,
+                y: 340,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
- zr.addShape(new BrokenLine({
+        zr.addShape(new BrokenLine({
             style: {
                 pointList: [
                     [146, 230],
@@ -3770,139 +3714,139 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 230,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 146,
+                y: 230,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
-
-        zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 228,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
+        }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 222,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 300,
+                y: 228,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 215,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 450,
+                y: 222,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-          zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 213,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 215,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-            zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 205,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 213,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-              zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 202,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 205,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 201,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 202,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                  zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 200,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#d87a80',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 201,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 200,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#d87a80', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
 
         zr.addShape(new BrokenLine({
             style: {
@@ -3929,124 +3873,124 @@ require(
             hoverable: false
         }));
 
-                        zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 225,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 225,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
-                                        zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 220,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        }));
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 220,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 218,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 218,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 210,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 210,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                                zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 208,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 208,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 200,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 200,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 202,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 202,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                                zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 197,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#5ab1ef',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 197,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#5ab1ef', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new LineShape({
             style: {
@@ -4065,21 +4009,6 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
 
     }
 );
@@ -4620,7 +4549,7 @@ require(
             hoverable: false
         }));
 
-                // Horizontal
+        // Horizontal
         zr.addShape(new LineShape({
             style: {
                 xStart: 70,
@@ -4966,21 +4895,7 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -5772,37 +5687,37 @@ require(
             hoverable: false
         }));
 
-   zr.addShape(new DropletShape({
-    style : {
-        x : 1050,
-        y : 25,
-        a : -24,
-        b : -22,
-        brushType : 'both',
-        color : 'orange',
-        text:'30.906',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false
-}));
+        zr.addShape(new DropletShape({
+            style: {
+                x: 1050,
+                y: 25,
+                a: -24,
+                b: -22,
+                brushType: 'both',
+                color: 'orange',
+                text: '30.906',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false
+        }));
 
         zr.addShape(new DropletShape({
-    style : {
-        x : 1200,
-        y : 80,
-        a : -24,
-        b : -22,
-        brushType : 'both',
-        color : 'orange',
-        text:'23.256',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false
-}));
+            style: {
+                x: 1200,
+                y: 80,
+                a: -24,
+                b: -22,
+                brushType: 'both',
+                color: 'orange',
+                text: '23.256',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false
+        }));
 
         // Courbes cassées
 
@@ -5835,21 +5750,7 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -6489,22 +6390,6 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
-
     }
 );
 
@@ -6890,19 +6775,19 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1545,
-        y : 320,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1545,
+                y: 320,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         zr.addShape(new LineShape({
             style: {
@@ -6921,19 +6806,19 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1545,
-        y : 300,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 1545,
+                y: 300,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         // Horizontal
         zr.addShape(new LineShape({
@@ -7084,7 +6969,7 @@ require(
 
 
         // Courbes cassées
-   zr.addShape(new BrokenLine({
+        zr.addShape(new BrokenLine({
             style: {
                 pointList: [
                     [146, 125],
@@ -7109,188 +6994,188 @@ require(
             hoverable: false
         }));
 
- zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
-
-  zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
-
-   zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
-
-    zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
-
-     zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
-
-      zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 95,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
-
-       zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 95,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
-
-    }));
+        }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 95,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 300,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 95,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 95,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#2ec7c9',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 95,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 95,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 95,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 95,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
+
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 95,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#2ec7c9', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
+
+        }));
 
         zr.addShape(new DropletShape({
-    style : {
-        x : 750,
-        y : 32,
-        a : -24,
-        b : -28,
-        brushType : 'both',
-        color : '#b6a2de',
-        text:'14.144',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false
-}));
+            style: {
+                x: 750,
+                y: 32,
+                a: -24,
+                b: -28,
+                brushType: 'both',
+                color: '#b6a2de',
+                text: '14.144',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false
+        }));
 
         zr.addShape(new DropletShape({
-    style : {
-        x : 900,
-        y : 57,
-        a : -24,
-        b : -28,
-        brushType : 'both',
-        color : '#2ec7c9',
-        text:'20.769',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false
-}));
-zr.addShape(new BrokenLine({
+            style: {
+                x: 900,
+                y: 57,
+                a: -24,
+                b: -28,
+                brushType: 'both',
+                color: '#2ec7c9',
+                text: '20.769',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false
+        }));
+        zr.addShape(new BrokenLine({
             style: {
                 pointList: [
                     [146, 85],
@@ -7315,160 +7200,146 @@ zr.addShape(new BrokenLine({
             hoverable: false
         }));
 
-            zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 85,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 146,
+                y: 85,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 135,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 135,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                    zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 185,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 185,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                        zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 180,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 180,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                            zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 70,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 70,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 175,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 175,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                    zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 190,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 190,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                        zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 240,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 240,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-                                            zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 265,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : '#b6a2de',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 265,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: '#b6a2de', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
 
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -7784,7 +7655,7 @@ require(
 
         // Legend
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 180,
@@ -7801,7 +7672,7 @@ zr.addShape(new LineShape({
         }));
 
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 200,
@@ -7817,7 +7688,7 @@ zr.addShape(new LineShape({
             hoverable: false
         }));
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 220,
@@ -7833,7 +7704,7 @@ zr.addShape(new LineShape({
             hoverable: false
         }));
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 240,
@@ -7849,7 +7720,7 @@ zr.addShape(new LineShape({
             hoverable: false
         }));
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 260,
@@ -7865,7 +7736,7 @@ zr.addShape(new LineShape({
             hoverable: false
         }));
 
-zr.addShape(new LineShape({
+        zr.addShape(new LineShape({
             style: {
                 xStart: 1500,
                 yStart: 280,
@@ -8062,76 +7933,62 @@ zr.addShape(new LineShape({
 
         // Courbes cassées
 
-       /* zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 125],
-                    [300, 125],
-                    [450, 125],
-                    [600, 125],
-                    [750, 125],
-                    [900, 95],
-                    [1050, 95],
-                    [1200, 95],
-                    [1350, 95]
-                ],
-                strokeColor: '#2ec7c9', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
+        /* zr.addShape(new BrokenLine({
+             style: {
+                 pointList: [
+                     [146, 125],
+                     [300, 125],
+                     [450, 125],
+                     [600, 125],
+                     [750, 125],
+                     [900, 95],
+                     [1050, 95],
+                     [1200, 95],
+                     [1350, 95]
+                 ],
+                 strokeColor: '#2ec7c9', // == color
+                 lineWidth: 2,
+                 lineCap: 'round',
+                 lineType: 'solid',
+                 lineJoin: 'miter',
+                 miterLimit: 50,
+                 textPosition: 'end'
+             },
+             draggable: false,
+             hoverable: false
+         }));
 
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 85],
-                    [300, 135],
-                    [450, 185],
-                    [600, 180],
-                    [750, 70],
-                    [900, 175],
-                    [1050, 190],
-                    [1200, 240],
-                    [1350, 265]
-                ],
-                strokeColor: '#b6a2de', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-        */
+         zr.addShape(new BrokenLine({
+             style: {
+                 pointList: [
+                     [146, 85],
+                     [300, 135],
+                     [450, 185],
+                     [600, 180],
+                     [750, 70],
+                     [900, 175],
+                     [1050, 190],
+                     [1200, 240],
+                     [1350, 265]
+                 ],
+                 strokeColor: '#b6a2de', // == color
+                 lineWidth: 2,
+                 lineCap: 'round',
+                 lineType: 'solid',
+                 lineJoin: 'miter',
+                 miterLimit: 50,
+                 textPosition: 'end'
+             },
+             draggable: false,
+             hoverable: false
+         }));
+         */
 
 
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -8751,21 +8608,7 @@ require(
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -9095,20 +8938,20 @@ require(
             hoverable: false
         }));
 
-           zr.addShape(new CircleShape({
-    style : {
-        x : 1545,
-        y : 300,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1545,
+                y: 300,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
         // Horizontal
         zr.addShape(new LineShape({
@@ -9284,192 +9127,178 @@ require(
         }));
 
         zr.addShape(new CircleShape({
-    style : {
-        x : 146,
-        y : 275,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+            style: {
+                x: 146,
+                y: 275,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
- zr.addShape(new CircleShape({
-    style : {
-        x : 300,
-        y : 264,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 300,
+                y: 264,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-  zr.addShape(new CircleShape({
-    style : {
-        x : 450,
-        y : 254,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 450,
+                y: 254,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-   zr.addShape(new CircleShape({
-    style : {
-        x : 600,
-        y : 234,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 600,
+                y: 234,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-    zr.addShape(new CircleShape({
-    style : {
-        x : 750,
-        y : 214,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 750,
+                y: 214,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
- zr.addShape(new CircleShape({
-    style : {
-        x : 900,
-        y : 195,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 900,
+                y: 195,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-  zr.addShape(new CircleShape({
-    style : {
-        x : 1050,
-        y : 160,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1050,
+                y: 160,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-   zr.addShape(new CircleShape({
-    style : {
-        x : 1200,
-        y : 125,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1200,
+                y: 125,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-    zr.addShape(new CircleShape({
-    style : {
-        x : 1350,
-        y : 75,
-        r : 5,
-        brushType : 'both',
-        color : '#ffffff',          // rgba supported
-        strokeColor : 'orange',  // getColor from default palette
-        lineWidth : 2,
-    },
-    hoverable : false,   // default true
-    draggable : false   // default false
+        zr.addShape(new CircleShape({
+            style: {
+                x: 1350,
+                y: 75,
+                r: 5,
+                brushType: 'both',
+                color: '#ffffff', // rgba supported
+                strokeColor: 'orange', // getColor from default palette
+                lineWidth: 2,
+            },
+            hoverable: false, // default true
+            draggable: false // default false
 
-    }));
+        }));
 
-    zr.addShape(new DropletShape({
-    style : {
-        x : 146,
-        y : 237,
-        a : -24,
-        b : -28,
-        brushType : 'both',
-        color : 'orange',
-        text:'72',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false,
-    hoverable: false
-}));
+        zr.addShape(new DropletShape({
+            style: {
+                x: 146,
+                y: 237,
+                a: -24,
+                b: -28,
+                brushType: 'both',
+                color: 'orange',
+                text: '72',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
-zr.addShape(new DropletShape({
-    style : {
-        x : 1350,
-        y : 37,
-        a : -24,
-        b : -28,
-        brushType : 'both',
-        color : 'orange',
-        text:'277',
-        textPosition:'inside',
-        textColor:'white',
-        textFont: 'normal 10px verdana'
-    },
-    draggable : false,
-    hoverable: false
-}));
+        zr.addShape(new DropletShape({
+            style: {
+                x: 1350,
+                y: 37,
+                a: -24,
+                b: -28,
+                brushType: 'both',
+                color: 'orange',
+                text: '277',
+                textPosition: 'inside',
+                textColor: 'white',
+                textFont: 'normal 10px verdana'
+            },
+            draggable: false,
+            hoverable: false
+        }));
 
         // 绘画
         zr.render();
 
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
+
 
     }
 );
@@ -10289,22 +10118,6 @@ require(
 
         // 绘画
         zr.render();
-
-        /* 除了在shape上绑定事件，可以挂接全局事件
-        zr.on('click',      function(e){console.log('onclick',e,'global')});
-        zr.on('mousewheel', function(e){console.log('onmousewheel',e,'global')});
-        zr.on('mousemove',  function(e){console.log('onmousemove',e,'global')});
-        zr.on('mouseover',  function(e){console.log('onmouseover',e,'global')});
-        zr.on('mouseout',   function(e){console.log('onmouseout',e,'global')});
-        zr.on('mousedown',  function(e){console.log('onmousedown',e,'global')});
-        zr.on('mouseup',    function(e){console.log('onmouseup',e,'global')});
-        zr.on('dragstart',  function(e){console.log('ondragstart',e,'global')});
-        zr.on('dragend',    function(e){console.log('ondragend',e,'global')});
-        zr.on('dragenter',  function(e){console.log('ondragenter',e,'global')});
-        zr.on('dragover',   function(e){console.log('ondragover',e,'global')});
-        zr.on('dragleave',  function(e){console.log('ondragleave',e,'global')});
-        zr.on('drop',       function(e){console.log('ondrop',e,'global')});
-        */
 
     }
 );
