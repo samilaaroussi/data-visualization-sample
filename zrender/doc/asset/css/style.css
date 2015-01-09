@@ -1,0 +1,14 @@
+body {
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: #5a5a5a;
+    font-family: "微软雅黑";
+}
+
+.main {
+    height: 400px;
+    overflow: hidden;
+    padding : 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #ccc;
+}
