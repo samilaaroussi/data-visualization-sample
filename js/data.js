@@ -32,15 +32,8 @@ require(
     /********************* CHART 1 *********************/
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+
         var zr = zrender.init(document.getElementById('main'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -298,33 +291,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -343,35 +309,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
-
+    
         // Legend
 
         zr.addShape(new LineShape({
@@ -500,44 +438,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -556,6 +456,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         //Repères
         zr.addShape(new LineShape({
             style: {
@@ -684,15 +585,8 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+        
         var zr = zrender.init(document.getElementById('main2'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -950,33 +844,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -1119,44 +986,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
+       
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -1175,6 +1005,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         //Repères
         zr.addShape(new LineShape({
             style: {
@@ -1615,33 +1446,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -1781,44 +1585,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -2531,33 +2297,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -2671,44 +2410,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -3168,33 +2869,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -3278,22 +2952,6 @@ require(
             draggable: false
         }));
 
-        /*
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList : [[146, 110], [300, 108], [450, 106], [600, 104], [750, 102], [900, 100], [1050, 98], [1200, 96], [1350, 94]],
-                strokeColor : 'orange',   // == color
-                lineWidth : 2,
-                lineCap : 'round',
-                lineType : 'dashed',
-                lineJoin : 'miter',
-                miterLimit : 50,
-                textPosition:'end'
-            },
-            draggable : false,
-            hoverable : false
-        }));
-        */
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -3336,44 +2994,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -3885,33 +3505,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -3930,34 +3523,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -4067,44 +3632,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -4502,40 +4029,6 @@ require(
             draggable: false
         }));
 
-
-        // Courbes cassées
-        /*
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList : [[146, 300], [300, 99], [450, 98], [600, 97], [750, 96], [900, 95], [1050, 94], [1200, 93], [1350, 92]],
-                strokeColor : '#2ec7c9',   // == color
-                lineWidth : 2,
-                lineCap : 'round',
-                lineType : 'solid',
-                lineJoin : 'miter',
-                miterLimit : 50,
-                textPosition:'end'
-            },
-            draggable : false,
-            hoverable : false
-        }));
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList : [[146, 200], [300, 195], [450, 190], [600, 180], [750, 155], [900, 130], [1050, 115], [1200, 110], [1350, 60]],
-                strokeColor : '#b6a2de',   // == color
-                lineWidth : 2,
-                lineCap : 'round',
-                lineType : 'solid',
-                lineJoin : 'miter',
-                miterLimit : 50,
-                textPosition:'end'
-            },
-            draggable : false,
-            hoverable : false
-        }));
-        */
-
         // 绘画
         zr.render();
 
@@ -4582,15 +4075,7 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
         var zr = zrender.init(document.getElementById('main7'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -4848,33 +4333,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -4893,34 +4351,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -5012,44 +4442,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
 
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -5496,15 +4889,8 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+
         var zr = zrender.init(document.getElementById('main8'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -5762,33 +5148,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -5807,35 +5166,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
-
+    
         // Legend
 
         zr.addShape(new LineShape({
@@ -5895,44 +5226,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
 
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -6047,20 +5341,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-
-        /*zr.addShape(new RectangleShape({
-            style : {
-                x : width - 1615,
-                y : 143,
-                width : 80,
-                height: 205,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#95706d'
-            },
-            draggable : false,
-            hoverable : false
-        }));*/
 
         /*****************************************/
 
@@ -6560,33 +5840,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -6605,34 +5858,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -6712,44 +5937,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -7215,33 +6402,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -7260,34 +6420,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -7367,44 +6499,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -7637,6 +6731,7 @@ require(
         var StarShape = require('zrender/shape/Star');
         var IsogonShape = require('zrender/shape/Isogon');
         var BrokenLine = require('zrender/shape/BrokenLine');
+
         // Vertical numbers
 
         zr.addShape(new TextShape({
@@ -7870,33 +6965,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -7915,34 +6983,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -8069,44 +7109,7 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
 
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
@@ -8321,15 +7324,8 @@ require(
     ],
 
     function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
-        // just init to get a zrender Instance
+
         var zr = zrender.init(document.getElementById('main13'));
-        // zr can be used now!
-        /*
-         *  zr has been init like this, just use it!
-         *
-         *  var zrender = require('zrender');
-         *  var zr = zrender.init(document.getElementById('main'));
-         */
         zr.clear();
         var color = require('zrender/tool/color');
         var colorIdx = 0;
@@ -8640,33 +7636,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 110,
-                width : 50,
-                height: 100,
-                radius: [5, 5],
-                brushType : 'both',
-                color : color.getColor(colorIdx++),
-            },
-            draggable : false
-        }));
-        */
 
         // Double Chart Bar
 
@@ -8685,34 +7654,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-        /*
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 270,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#CCCCCC'
-            },
-            draggable : false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style : {
-                x : width - 210,
-                y : 90,
-                width : 50,
-                height: 300,
-                radius: [5, 5],
-                brushType : 'both',
-                color : '#999999'
-            },
-            draggable : false
-        }));
-
-        */
 
         // Legend
 
@@ -8793,44 +7734,6 @@ require(
             hoverable: false
         }));
 
-        /*
-        // 圆形
-        zr.addShape(new CircleShape({
-            style : {
-                x : 100,
-                y : 300,
-                r : 10,
-                brushType : 'both',
-                color : '#ffffff',          // rgba supported
-                strokeColor : color.getColor(colorIdx++),  // getColor from default palette
-                lineWidth : 2,
-                text :'1',
-                textColor : '#333333',
-                textPosition :'outside'
-            },
-            hoverable : true,   // default true
-            draggable : false,   // default false
-            clickable : true,   // default false
-
-            // 可自带任何有效自定义属性
-            _name : 'Hello~',
-
-            // 响应事件并动态修改图形元素
-            onmousewheel: function(params){
-                var eventTool = require('zrender/tool/event');
-                var delta = eventTool.getDelta(params.event);
-                var r = params.target.style.r;
-                r += (delta > 0 ? 1 : -1) * 10;
-                if (r < 10) {
-                    r = 10;
-                };
-                zr.modShape(params.target.id, {style: {r: r}})
-                zr.refresh();
-                eventTool.stop(params.event);
-            }
-            
-        }));
-        */
         // 文本
         zr.addShape(new TextShape({
             style: {
