@@ -456,7 +456,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -465,6 +465,20 @@ zr.addShape(new LineShape({
     },
     draggable : false,
 	hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 /*
@@ -527,9 +541,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -1004,6 +1018,19 @@ zr.addShape(new LineShape({
     draggable:false
 }));
 
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
 /*
 // 圆形
 zr.addShape(new CircleShape({
@@ -1064,9 +1091,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -1599,7 +1626,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -1608,6 +1635,20 @@ zr.addShape(new LineShape({
     },
     draggable:false,
 	hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 /*
@@ -1670,9 +1711,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -2416,7 +2457,7 @@ zr.addShape(new LineShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
@@ -2424,6 +2465,20 @@ zr.addShape(new LineShape({
         lineType : 'solid'
     },
     draggable:false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
 }));
 
 /*
@@ -2486,9 +2541,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -3015,6 +3070,20 @@ zr.addShape(new LineShape({
     draggable:false
 }));
 
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
 /*
 // 圆形
 zr.addShape(new CircleShape({
@@ -3075,9 +3144,9 @@ zr.addShape(new TextShape({
 zr.addShape(new LineShape({
     style : {
         xStart : 70,
-        yStart : 65,
+        yStart : 50,
         xEnd : 1450,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
@@ -4132,7 +4201,7 @@ zr.addShape(new LineShape({
         xStart : 146,
         yStart : 80,
         xEnd : 1350,
-        yEnd : 65,
+        yEnd : 50,
         strokeColor : '#b6a2de',
         lineWidth : 2,
         lineType : 'solid'
@@ -4629,6 +4698,20 @@ zr.addShape(new LineShape({
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
@@ -5487,6 +5570,20 @@ zr.addShape(new LineShape({
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
@@ -6929,6 +7026,20 @@ zr.addShape(new LineShape({
     hoverable : false
 }));
 
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
 /*
 // 圆形
 zr.addShape(new CircleShape({
@@ -7590,6 +7701,20 @@ zr.addShape(new LineShape({
         xEnd : 70,
         yEnd : 350,
         strokeColor : '#333333',
+        lineWidth : 1,
+        lineType : 'solid'
+    },
+    draggable:false,
+    hoverable : false
+}));
+
+zr.addShape(new LineShape({
+    style : {
+        xStart : 1450,
+        yStart : 50,
+        xEnd : 1450,
+        yEnd : 350,
+        strokeColor : '#eeeeee',
         lineWidth : 1,
         lineType : 'solid'
     },
