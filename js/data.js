@@ -5578,7 +5578,7 @@ require(
         'zrender/shape/Polygon'
     ],
 
-    function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape) {
+    function(zrender, CircleShape, RectangleShape, BrokenLineShape, TextShape, LineShape, DropletShape) {
         // just init to get a zrender Instance
         var zr = zrender.init(document.getElementById('main9'));
         // zr can be used now!
@@ -6125,6 +6125,23 @@ require(
             draggable: false,
             hoverable: false
         }));
+
+        zr.addShape(new DropletShape({
+    style : {
+        x : 750,
+        y : 38,
+        a : -24,
+        b : -28,
+        brushType : 'both',
+        color : '#b6a2de',
+        text:'14,144',
+        textPosition:'inside',
+        textColor:'white',
+        textFont: 'normal 10px verdana'
+    },
+    draggable : false
+}));
+
 
         zr.addShape(new BrokenLine({
             style: {
