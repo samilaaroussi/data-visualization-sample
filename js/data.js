@@ -6194,7 +6194,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '5,000次',
+                text: '200,000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6212,7 +6212,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '15,000次',
+                text: '600,000',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6223,14 +6223,14 @@ require(
 
         zr.addShape(new TextShape({
             style: {
-                x: 30,
+                x: 45,
                 y: 50,
                 brushType: 'fill',
                 color: '#999999',
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '25,000次',
+                text: '1M',
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
@@ -6437,16 +6437,112 @@ require(
 
         // Legend
 
-        zr.addShape(new LineShape({
+zr.addShape(new LineShape({
             style: {
-                xStart: 1520,
-                yStart: 320,
-                xEnd: 1570,
-                yEnd: 320,
+                xStart: 1500,
+                yStart: 180,
+                xEnd: 1550,
+                yEnd: 180,
+                strokeColor: '#2ec7c9',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '博士在校学生数(万人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+
+zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 200,
+                xEnd: 1550,
+                yEnd: 200,
+                strokeColor: '#ffb980',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '硕士在校学生数(万人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 220,
+                xEnd: 1550,
+                yEnd: 220,
                 strokeColor: '#b6a2de',
                 lineWidth: 2,
                 lineType: 'solid',
-                text: '森林面积(万公顷)',
+                text: '普通本科、专科生在校学 生数(万人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 240,
+                xEnd: 1550,
+                yEnd: 240,
+                strokeColor: '#5ab1ef',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '普通本科在校学生数(万 人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 260,
+                xEnd: 1550,
+                yEnd: 260,
+                strokeColor: '#d87a80',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '普通高中在校学生数(万 人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 280,
+                xEnd: 1550,
+                yEnd: 280,
+                strokeColor: '#95706d',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '普通本科在校学生数(万 人)',
+                textColor: '#333333'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+        zr.addShape(new LineShape({
+            style: {
+                xStart: 1500,
+                yStart: 300,
+                xEnd: 1550,
+                yEnd: 300,
+                strokeColor: '#b6a2de',
+                lineWidth: 2,
+                lineType: 'solid',
+                text: '初中在校学生数(万人)',
                 textColor: '#333333'
             },
             draggable: false,
@@ -6455,14 +6551,14 @@ require(
 
         zr.addShape(new LineShape({
             style: {
-                xStart: 1520,
-                yStart: 300,
-                xEnd: 1570,
-                yEnd: 300,
-                strokeColor: '#5ab1ef',
+                xStart: 1500,
+                yStart: 320,
+                xEnd: 1550,
+                yEnd: 320,
+                strokeColor: '#97b552',
                 lineWidth: 2,
                 lineType: 'solid',
-                text: '森林火灾次数(次)',
+                text: '普通小学在校学生数(万 人)',
                 textColor: '#333333'
             },
             draggable: false,
@@ -6619,7 +6715,7 @@ require(
 
         // Courbes cassées
 
-        zr.addShape(new BrokenLine({
+       /* zr.addShape(new BrokenLine({
             style: {
                 pointList: [
                     [146, 125],
@@ -6668,6 +6764,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+        */
 
 
         // 绘画
