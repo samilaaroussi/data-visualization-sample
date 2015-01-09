@@ -342,58 +342,6 @@ require(
             hoverable: false
         }));
 
-        // Courbes cassées
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 250],
-                    [300, 230],
-                    [450, 215],
-                    [600, 205],
-                    [750, 190],
-                    [900, 185],
-                    [1050, 180],
-                    [1200, 160],
-                    [1350, 150]
-                ],
-                strokeColor: '#5ab1ef', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new BrokenLine({
-            style: {
-                pointList: [
-                    [146, 240],
-                    [300, 220],
-                    [450, 210],
-                    [600, 200],
-                    [750, 190],
-                    [900, 180],
-                    [1050, 170],
-                    [1200, 150],
-                    [1350, 140]
-                ],
-                strokeColor: '#d87a80', // == color
-                lineWidth: 2,
-                lineCap: 'round',
-                lineType: 'solid',
-                lineJoin: 'miter',
-                miterLimit: 50,
-                textPosition: 'end'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -536,6 +484,58 @@ require(
                 strokeColor: '#eeeeee',
                 lineWidth: 1,
                 lineType: 'solid'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+         // Courbes cassées
+
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 250],
+                    [300, 230],
+                    [450, 215],
+                    [600, 205],
+                    [750, 190],
+                    [900, 185],
+                    [1050, 180],
+                    [1200, 160],
+                    [1350, 150]
+                ],
+                strokeColor: '#5ab1ef', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'solid',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new BrokenLine({
+            style: {
+                pointList: [
+                    [146, 240],
+                    [300, 220],
+                    [450, 210],
+                    [600, 200],
+                    [750, 190],
+                    [900, 180],
+                    [1050, 170],
+                    [1200, 150],
+                    [1350, 140]
+                ],
+                strokeColor: '#d87a80', // == color
+                lineWidth: 2,
+                lineCap: 'round',
+                lineType: 'solid',
+                lineJoin: 'miter',
+                miterLimit: 50,
+                textPosition: 'end'
             },
             draggable: false,
             hoverable: false
