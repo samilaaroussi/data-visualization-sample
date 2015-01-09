@@ -396,7 +396,7 @@ require(
                 shadowColor: 'none',
                 shadowBlur: 0,
                 lineWidth: 3,
-                text: '国民总收入 和 国内生产总值 (亿元)',
+                text: '国民生产总值和国内生产总值',
                 textFont: 'normal 24px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
