@@ -292,24 +292,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -1134,25 +1116,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -1351,7 +1314,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1525,
+                x: 1575,
                 y: 320,
                 r: 5,
                 brushType: 'both',
@@ -1381,7 +1344,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1525,
+                x: 1575,
                 y: 340,
                 r: 5,
                 brushType: 'both',
@@ -2067,24 +2030,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -2288,7 +2233,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: width - 1775,
                 y: 245,
                 width: 40,
                 height: 103,
@@ -2302,7 +2247,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: width - 1725,
                 y: 220,
                 width: 40,
                 height: 128,
@@ -2318,7 +2263,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: width - 1625,
                 y: 242,
                 width: 40,
                 height: 106,
@@ -2332,7 +2277,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: width - 1575,
                 y: 222,
                 width: 40,
                 height: 126,
@@ -2348,7 +2293,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: width - 1475,
                 y: 239,
                 width: 40,
                 height: 109,
@@ -2362,7 +2307,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: width - 1425,
                 y: 224,
                 width: 40,
                 height: 124,
@@ -2378,10 +2323,41 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: width - 1325,
                 y: 236,
                 width: 40,
                 height: 112,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#5ab1ef'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1275,
+                y: 226,
+                width: 40,
+                height: 122,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#d87a80'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        /*****************************************/
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1175,
+                y: 230,
+                width: 40,
+                height: 118,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -2410,9 +2386,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1025,
-                y: 230,
+                y: 228,
                 width: 40,
-                height: 118,
+                height: 120,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -2421,13 +2397,12 @@ require(
             hoverable: false
         }));
 
-
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 975,
-                y: 226,
+                y: 228,
                 width: 40,
-                height: 122,
+                height: 120,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -2441,36 +2416,6 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 875,
-                y: 228,
-                width: 40,
-                height: 120,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#5ab1ef'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 825,
-                y: 228,
-                width: 40,
-                height: 120,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#d87a80'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        /*****************************************/
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 725,
                 y: 225,
                 width: 40,
                 height: 123,
@@ -2484,7 +2429,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: width - 825,
                 y: 230,
                 width: 40,
                 height: 118,
@@ -2500,7 +2445,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: width - 725,
                 y: 222,
                 width: 40,
                 height: 126,
@@ -2514,7 +2459,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: width - 675,
                 y: 232,
                 width: 40,
                 height: 116,
@@ -2530,7 +2475,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 425,
+                x: width - 575,
                 y: 219,
                 width: 40,
                 height: 129,
@@ -2544,7 +2489,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 375,
+                x: width - 525,
                 y: 234,
                 width: 40,
                 height: 114,
@@ -2879,24 +2824,6 @@ require(
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
             },
             draggable: false,
             hoverable: false
@@ -3448,24 +3375,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -3645,7 +3554,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1525,
+                x: 1575,
                 y: 320,
                 r: 5,
                 brushType: 'both',
@@ -3675,7 +3584,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1525,
+                x: 1575,
                 y: 340,
                 r: 5,
                 brushType: 'both',
@@ -4358,24 +4267,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -4597,7 +4488,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: width - 1775,
                 y: 215,
                 width: 40,
                 height: 133,
@@ -4611,7 +4502,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: width - 1725,
                 y: 300,
                 width: 40,
                 height: 48,
@@ -4627,7 +4518,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: width - 1625,
                 y: 190,
                 width: 40,
                 height: 158,
@@ -4641,7 +4532,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: width - 1575,
                 y: 298,
                 width: 40,
                 height: 50,
@@ -4657,7 +4548,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: width - 1475,
                 y: 175,
                 width: 40,
                 height: 173,
@@ -4671,7 +4562,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: width - 1425,
                 y: 288,
                 width: 40,
                 height: 60,
@@ -4687,7 +4578,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: width - 1325,
                 y: 145,
                 width: 40,
                 height: 203,
@@ -4702,7 +4593,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1125,
+                x: width - 1275,
                 y: 278,
                 width: 40,
                 height: 70,
@@ -4718,7 +4609,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: width - 1175,
                 y: 105,
                 width: 40,
                 height: 243,
@@ -4733,7 +4624,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: width - 1125,
                 y: 268,
                 width: 40,
                 height: 80,
@@ -4749,7 +4640,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: width - 1025,
                 y: 90,
                 width: 40,
                 height: 258,
@@ -4763,7 +4654,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: width - 975,
                 y: 258,
                 width: 40,
                 height: 90,
@@ -4779,7 +4670,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: width - 875,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -4793,7 +4684,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: width - 825,
                 y: 248,
                 width: 40,
                 height: 100,
@@ -4809,7 +4700,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: width - 725,
                 y: 65,
                 width: 40,
                 height: 283,
@@ -4823,7 +4714,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: width - 675,
                 y: 238,
                 width: 40,
                 height: 110,
@@ -4839,7 +4730,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 425,
+                x: width - 575,
                 y: 58,
                 width: 40,
                 height: 290,
@@ -4853,7 +4744,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 375,
+                x: width - 525,
                 y: 228,
                 width: 40,
                 height: 120,
@@ -5183,24 +5074,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -5218,22 +5091,6 @@ require(
             draggable: false,
             hoverable: false
         }));
-
-        /*zr.addShape(new LineShape({
-            style: {
-                xStart: 1520,
-                yStart: 320,
-                xEnd: 1570,
-                yEnd: 320,
-                strokeColor: '#d87a80',
-                lineWidth: 5,
-                lineCape: 'round',
-                text: '供水总量(亿立方米)',
-                textColor: '#333333'
-            },
-            draggable: false,
-            hoverable: false
-        }));*/
 
         zr.addShape(new RectangleShape({
             style: {
@@ -5419,7 +5276,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: width - 1775,
                 y: 295,
                 width: 40,
                 height: 53,
@@ -5433,10 +5290,40 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: width - 1725,
                 y: 295,
                 width: 40,
                 height: 53,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#d87a80'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        /*****************************************/
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1625,
+                y: 294,
+                width: 40,
+                height: 54,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#5ab1ef'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1575,
+                y: 294,
+                width: 40,
+                height: 54,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5450,9 +5337,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1475,
-                y: 294,
+                y: 293,
                 width: 40,
-                height: 54,
+                height: 55,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5464,9 +5351,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1425,
-                y: 294,
+                y: 293,
                 width: 40,
-                height: 54,
+                height: 55,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5480,9 +5367,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1325,
-                y: 293,
+                y: 292,
                 width: 40,
-                height: 55,
+                height: 56,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5491,12 +5378,13 @@ require(
             hoverable: false
         }));
 
+
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1275,
-                y: 293,
+                y: 292,
                 width: 40,
-                height: 55,
+                height: 56,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5510,9 +5398,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1175,
-                y: 292,
+                y: 291,
                 width: 40,
-                height: 56,
+                height: 57,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5525,9 +5413,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1125,
-                y: 292,
+                y: 291,
                 width: 40,
-                height: 56,
+                height: 57,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5541,9 +5429,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1025,
-                y: 291,
+                y: 290,
                 width: 40,
-                height: 57,
+                height: 58,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5552,13 +5440,12 @@ require(
             hoverable: false
         }));
 
-
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 975,
-                y: 291,
+                y: 290,
                 width: 40,
-                height: 57,
+                height: 58,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5572,9 +5459,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 875,
-                y: 290,
+                y: 289,
                 width: 40,
-                height: 58,
+                height: 59,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5586,9 +5473,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 825,
-                y: 290,
+                y: 289,
                 width: 40,
-                height: 58,
+                height: 59,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5602,9 +5489,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 725,
-                y: 289,
+                y: 288,
                 width: 40,
-                height: 59,
+                height: 60,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#5ab1ef'
@@ -5616,9 +5503,9 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 675,
-                y: 289,
+                y: 288,
                 width: 40,
-                height: 59,
+                height: 60,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -5632,36 +5519,6 @@ require(
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 575,
-                y: 288,
-                width: 40,
-                height: 60,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#5ab1ef'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 525,
-                y: 288,
-                width: 40,
-                height: 60,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#d87a80'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        /*****************************************/
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 425,
                 y: 287,
                 width: 40,
                 height: 61,
@@ -5675,7 +5532,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 375,
+                x: width - 525,
                 y: 287,
                 width: 40,
                 height: 61,
@@ -6039,42 +5896,10 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
+        
 
 
         // Legend
-
-        /*zr.addShape(new LineShape({
-            style: {
-                xStart: 1520,
-                yStart: 300,
-                xEnd: 1550,
-                yEnd: 300,
-                strokeColor: '#95706d',
-                lineWidth: 20,
-                lineCape: 'round',
-                text: '废水排放总量(万吨)',
-                textColor: '#333333'
-            },
-            draggable: false,
-            hoverable: false
-        }));*/
 
         zr.addShape(new RectangleShape({
             style: {
@@ -6092,6 +5917,7 @@ require(
             draggable: false,
             hoverable: false
         }));
+
         // Horizontal
         zr.addShape(new LineShape({
             style: {
@@ -6243,7 +6069,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1615,
+                x: width - 1775,
                 y: 163,
                 width: 80,
                 height: 185,
@@ -6259,7 +6085,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1465,
+                x: width - 1625,
                 y: 143,
                 width: 80,
                 height: 205,
@@ -6275,7 +6101,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1315,
+                x: width - 1475,
                 y: 143,
                 width: 80,
                 height: 205,
@@ -6291,7 +6117,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1165,
+                x: width - 1325,
                 y: 122,
                 width: 80,
                 height: 226,
@@ -6308,7 +6134,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1015,
+                x: width - 1175,
                 y: 118,
                 width: 80,
                 height: 230,
@@ -6324,7 +6150,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 865,
+                x: width - 1025,
                 y: 108,
                 width: 80,
                 height: 240,
@@ -6341,7 +6167,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 715,
+                x: width - 875,
                 y: 93,
                 width: 80,
                 height: 255,
@@ -6358,7 +6184,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 565,
+                x: width - 725,
                 y: 73,
                 width: 80,
                 height: 275,
@@ -6374,7 +6200,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 415,
+                x: width - 575,
                 y: 63,
                 width: 85,
                 height: 285,
@@ -6733,24 +6559,6 @@ require(
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
             },
             draggable: false,
             hoverable: false
@@ -7635,24 +7443,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -8285,24 +8075,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new LineShape({
@@ -8896,24 +8668,6 @@ require(
                 textFont: 'normal 12px verdana',
                 textAlign: 'center',
                 textBaseline: 'top'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
             },
             draggable: false,
             hoverable: false
@@ -9642,24 +9396,6 @@ require(
             hoverable: false
         }));
 
-        // Double Chart Bar
-
-        // 矩形
-        zr.addShape(new RectangleShape({
-            style: {
-                x: 0,
-                y: 100,
-                y: 500,
-                width: 60,
-                height: 40,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#CCCCCC'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
         // Legend
 
         zr.addShape(new RectangleShape({
@@ -9848,7 +9584,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: width - 1775,
                 y: 78,
                 width: 40,
                 height: 270,
@@ -9862,7 +9598,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: width - 1725,
                 y: 160,
                 width: 40,
                 height: 188,
@@ -9878,7 +9614,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: width - 1625,
                 y: 73,
                 width: 40,
                 height: 275,
@@ -9892,10 +9628,40 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: width - 1575,
                 y: 148,
                 width: 40,
                 height: 200,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#d87a80'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        /*****************************************/
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1475,
+                y: 70,
+                width: 40,
+                height: 278,
+                radius: [5, 5],
+                brushType: 'both',
+                color: '#5ab1ef'
+            },
+            draggable: false,
+            hoverable: false
+        }));
+
+        zr.addShape(new RectangleShape({
+            style: {
+                x: width - 1425,
+                y: 138,
+                width: 40,
+                height: 210,
                 radius: [5, 5],
                 brushType: 'both',
                 color: '#d87a80'
@@ -9920,40 +9686,10 @@ require(
             hoverable: false
         }));
 
+
         zr.addShape(new RectangleShape({
             style: {
                 x: width - 1275,
-                y: 138,
-                width: 40,
-                height: 210,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#d87a80'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-        /*****************************************/
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 1175,
-                y: 70,
-                width: 40,
-                height: 278,
-                radius: [5, 5],
-                brushType: 'both',
-                color: '#5ab1ef'
-            },
-            draggable: false,
-            hoverable: false
-        }));
-
-
-        zr.addShape(new RectangleShape({
-            style: {
-                x: width - 1125,
                 y: 128,
                 width: 40,
                 height: 220,
@@ -9969,7 +9705,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: width - 1175,
                 y: 80,
                 width: 40,
                 height: 268,
@@ -9984,7 +9720,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: width - 1125,
                 y: 118,
                 width: 40,
                 height: 230,
@@ -10000,7 +9736,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: width - 1025,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -10014,7 +9750,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: width - 975,
                 y: 103,
                 width: 40,
                 height: 245,
@@ -10030,7 +9766,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: width - 875,
                 y: 68,
                 width: 40,
                 height: 280,
@@ -10044,7 +9780,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: width - 825,
                 y: 88,
                 width: 40,
                 height: 260,
@@ -10060,7 +9796,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: width - 725,
                 y: 45,
                 width: 40,
                 height: 303,
@@ -10074,7 +9810,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: width - 675,
                 y: 78,
                 width: 40,
                 height: 270,
@@ -10090,7 +9826,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 425,
+                x: width - 575,
                 y: 50,
                 width: 40,
                 height: 298,
@@ -10104,7 +9840,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 375,
+                x: width - 525,
                 y: 63,
                 width: 40,
                 height: 285,
