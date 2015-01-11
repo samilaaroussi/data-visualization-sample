@@ -402,7 +402,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -1178,7 +1178,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -2130,7 +2130,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -2877,7 +2877,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -3423,7 +3423,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -3554,7 +3554,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1575,
+                x: 1525,
                 y: 320,
                 r: 5,
                 brushType: 'both',
@@ -3584,7 +3584,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1575,
+                x: 1525,
                 y: 340,
                 r: 5,
                 brushType: 'both',
@@ -4342,7 +4342,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -5174,7 +5174,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -5966,7 +5966,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -6676,7 +6676,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -7621,7 +7621,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -8205,7 +8205,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -8755,7 +8755,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
@@ -9564,7 +9564,7 @@ require(
         zr.addShape(new TextShape({
             style: {
                 x: 808,
-                y: 10,
+                y: 0,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
                 shadowColor: 'none',
