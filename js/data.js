@@ -401,7 +401,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -1177,7 +1177,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -2129,7 +2129,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -2876,7 +2876,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -3422,7 +3422,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -4341,7 +4341,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -5173,7 +5173,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -5965,7 +5965,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -6675,7 +6675,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -7620,7 +7620,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -8204,7 +8204,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -8754,7 +8754,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
@@ -9563,7 +9563,7 @@ require(
         // 文本
         zr.addShape(new TextShape({
             style: {
-                x: width / 2,
+                x: 808,
                 y: 10,
                 brushType: 'fill',
                 color: color.getColor(colorIdx++),
