@@ -1314,7 +1314,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1575,
+                x: 1525,
                 y: 320,
                 r: 5,
                 brushType: 'both',
@@ -1344,7 +1344,7 @@ require(
 
         zr.addShape(new CircleShape({
             style: {
-                x: 1575,
+                x: 1525,
                 y: 340,
                 r: 5,
                 brushType: 'both',
@@ -2233,7 +2233,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1775,
+                x: 108,
                 y: 245,
                 width: 40,
                 height: 103,
@@ -2247,7 +2247,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1725,
+                x: 158,
                 y: 220,
                 width: 40,
                 height: 128,
@@ -2263,7 +2263,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: 258,
                 y: 242,
                 width: 40,
                 height: 106,
@@ -2277,7 +2277,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: 308,
                 y: 222,
                 width: 40,
                 height: 126,
@@ -2293,7 +2293,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: 408,
                 y: 239,
                 width: 40,
                 height: 109,
@@ -2307,7 +2307,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: 458,
                 y: 224,
                 width: 40,
                 height: 124,
@@ -2323,7 +2323,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: 558,
                 y: 236,
                 width: 40,
                 height: 112,
@@ -2338,7 +2338,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: 608,
                 y: 226,
                 width: 40,
                 height: 122,
@@ -2354,7 +2354,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: 708,
                 y: 230,
                 width: 40,
                 height: 118,
@@ -2369,7 +2369,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1125,
+                x: 758,
                 y: 226,
                 width: 40,
                 height: 122,
@@ -2385,7 +2385,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: 858,
                 y: 228,
                 width: 40,
                 height: 120,
@@ -2399,7 +2399,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: 908,
                 y: 228,
                 width: 40,
                 height: 120,
@@ -2415,7 +2415,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: 1008,
                 y: 225,
                 width: 40,
                 height: 123,
@@ -2429,7 +2429,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: 1058,
                 y: 230,
                 width: 40,
                 height: 118,
@@ -2445,7 +2445,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: 1158,
                 y: 222,
                 width: 40,
                 height: 126,
@@ -2459,7 +2459,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: 1208,
                 y: 232,
                 width: 40,
                 height: 116,
@@ -2475,7 +2475,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: 1308,
                 y: 219,
                 width: 40,
                 height: 129,
@@ -2489,7 +2489,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: 1358,
                 y: 234,
                 width: 40,
                 height: 114,
@@ -4488,7 +4488,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1775,
+                x: 108,
                 y: 215,
                 width: 40,
                 height: 133,
@@ -4502,7 +4502,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1725,
+                x: 158,
                 y: 300,
                 width: 40,
                 height: 48,
@@ -4518,7 +4518,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: 258,
                 y: 190,
                 width: 40,
                 height: 158,
@@ -4532,7 +4532,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: 308,
                 y: 298,
                 width: 40,
                 height: 50,
@@ -4548,7 +4548,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: 408,
                 y: 175,
                 width: 40,
                 height: 173,
@@ -4562,7 +4562,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: 458,
                 y: 288,
                 width: 40,
                 height: 60,
@@ -4578,7 +4578,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: 558,
                 y: 145,
                 width: 40,
                 height: 203,
@@ -4593,7 +4593,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: 608,
                 y: 278,
                 width: 40,
                 height: 70,
@@ -4609,7 +4609,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: 708,
                 y: 105,
                 width: 40,
                 height: 243,
@@ -4624,7 +4624,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1125,
+                x: 758,
                 y: 268,
                 width: 40,
                 height: 80,
@@ -4640,7 +4640,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: 858,
                 y: 90,
                 width: 40,
                 height: 258,
@@ -4654,7 +4654,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: 908,
                 y: 258,
                 width: 40,
                 height: 90,
@@ -4670,7 +4670,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: 1008,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -4684,7 +4684,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: 1058,
                 y: 248,
                 width: 40,
                 height: 100,
@@ -4700,7 +4700,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: 1158,
                 y: 65,
                 width: 40,
                 height: 283,
@@ -4714,7 +4714,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: 1208,
                 y: 238,
                 width: 40,
                 height: 110,
@@ -4730,7 +4730,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: 1308,
                 y: 58,
                 width: 40,
                 height: 290,
@@ -4744,7 +4744,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: 1358,
                 y: 228,
                 width: 40,
                 height: 120,
@@ -5276,7 +5276,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1775,
+                x: 108,
                 y: 295,
                 width: 40,
                 height: 53,
@@ -5290,7 +5290,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1725,
+                x: 158,
                 y: 295,
                 width: 40,
                 height: 53,
@@ -5306,7 +5306,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: 258,
                 y: 294,
                 width: 40,
                 height: 54,
@@ -5320,7 +5320,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: 308,
                 y: 294,
                 width: 40,
                 height: 54,
@@ -5336,7 +5336,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: 408,
                 y: 293,
                 width: 40,
                 height: 55,
@@ -5350,7 +5350,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: 458,
                 y: 293,
                 width: 40,
                 height: 55,
@@ -5366,7 +5366,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: 558,
                 y: 292,
                 width: 40,
                 height: 56,
@@ -5381,7 +5381,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: 608,
                 y: 292,
                 width: 40,
                 height: 56,
@@ -5397,7 +5397,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: 708,
                 y: 291,
                 width: 40,
                 height: 57,
@@ -5412,7 +5412,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1125,
+                x: 758,
                 y: 291,
                 width: 40,
                 height: 57,
@@ -5428,7 +5428,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: 858,
                 y: 290,
                 width: 40,
                 height: 58,
@@ -5442,7 +5442,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: 908,
                 y: 290,
                 width: 40,
                 height: 58,
@@ -5458,7 +5458,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: 1008,
                 y: 289,
                 width: 40,
                 height: 59,
@@ -5472,7 +5472,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: 1058,
                 y: 289,
                 width: 40,
                 height: 59,
@@ -5488,7 +5488,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: 1158,
                 y: 288,
                 width: 40,
                 height: 60,
@@ -5502,7 +5502,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: 1208,
                 y: 288,
                 width: 40,
                 height: 60,
@@ -5518,7 +5518,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: 1308,
                 y: 287,
                 width: 40,
                 height: 61,
@@ -5532,7 +5532,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: 1358,
                 y: 287,
                 width: 40,
                 height: 61,
@@ -6069,7 +6069,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1775,
+                x: 108,
                 y: 163,
                 width: 80,
                 height: 185,
@@ -6085,7 +6085,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: 258,
                 y: 143,
                 width: 80,
                 height: 205,
@@ -6101,7 +6101,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: 408,
                 y: 143,
                 width: 80,
                 height: 205,
@@ -6117,7 +6117,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: 558,
                 y: 122,
                 width: 80,
                 height: 226,
@@ -6134,7 +6134,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: 708,
                 y: 118,
                 width: 80,
                 height: 230,
@@ -6150,7 +6150,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: 858,
                 y: 108,
                 width: 80,
                 height: 240,
@@ -6167,7 +6167,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: 1008,
                 y: 93,
                 width: 80,
                 height: 255,
@@ -6184,7 +6184,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: 1158,
                 y: 73,
                 width: 80,
                 height: 275,
@@ -6200,7 +6200,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: 1308,
                 y: 63,
                 width: 85,
                 height: 285,
@@ -9584,7 +9584,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1775,
+                x: 108,
                 y: 78,
                 width: 40,
                 height: 270,
@@ -9598,7 +9598,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1725,
+                x: 158,
                 y: 160,
                 width: 40,
                 height: 188,
@@ -9614,7 +9614,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1625,
+                x: 258,
                 y: 73,
                 width: 40,
                 height: 275,
@@ -9628,7 +9628,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1575,
+                x: 308,
                 y: 148,
                 width: 40,
                 height: 200,
@@ -9644,7 +9644,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1475,
+                x: 408,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -9658,7 +9658,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1425,
+                x: 458,
                 y: 138,
                 width: 40,
                 height: 210,
@@ -9674,7 +9674,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1325,
+                x: 558,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -9689,7 +9689,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1275,
+                x: 608,
                 y: 128,
                 width: 40,
                 height: 220,
@@ -9705,7 +9705,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1175,
+                x: 708,
                 y: 80,
                 width: 40,
                 height: 268,
@@ -9720,7 +9720,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1125,
+                x: 758,
                 y: 118,
                 width: 40,
                 height: 230,
@@ -9736,7 +9736,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 1025,
+                x: 858,
                 y: 70,
                 width: 40,
                 height: 278,
@@ -9750,7 +9750,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 975,
+                x: 908,
                 y: 103,
                 width: 40,
                 height: 245,
@@ -9766,7 +9766,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 875,
+                x: 1008,
                 y: 68,
                 width: 40,
                 height: 280,
@@ -9780,7 +9780,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 825,
+                x: 1058,
                 y: 88,
                 width: 40,
                 height: 260,
@@ -9796,7 +9796,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 725,
+                x: 1158,
                 y: 45,
                 width: 40,
                 height: 303,
@@ -9810,7 +9810,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 675,
+                x: 1208,
                 y: 78,
                 width: 40,
                 height: 270,
@@ -9826,7 +9826,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 575,
+                x: 1308,
                 y: 50,
                 width: 40,
                 height: 298,
@@ -9840,7 +9840,7 @@ require(
 
         zr.addShape(new RectangleShape({
             style: {
-                x: width - 525,
+                x: 1358,
                 y: 63,
                 width: 40,
                 height: 285,
